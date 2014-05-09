@@ -368,7 +368,7 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="12ab1884-68b9-fdb9-5da9-9d9c41ab56fe" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Line Troop Heavy Weapon" hidden="false" page="0">
+        <profile id="12ab1884-68b9-fdb9-5da9-9d9c41ab56fe" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Line Troop Heavy Weapon (Gatling Gun)" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
             <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
@@ -476,6 +476,54 @@
             <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
             <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="2"/>
             <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="227aaf94-70be-c185-416d-3f1f30bf9605" name="Merc - Booby Trap" points="5.0" categoryId="b6cb35d8-a279-801b-f50a-00831e2a318f" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="10" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="5d748b92-d15f-fa32-3a1c-3c0d710de387" name="May Upgrade Booby Trap:" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="0f2baa35-7496-42aa-2c2f-be4de8dcdcce" name="RJ-1027 IED" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="10" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="a85d9463-3581-bc61-baad-470501c98524" name="TNT Barrel Upgrade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="10" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="90483e85-40e8-5a86-c955-c80495aa0e2c" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Merc - Booby Trap" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="1"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="-"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="2&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="-"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="-"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="-"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="-"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="-"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="-"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="-"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -819,25 +867,57 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="227aaf94-70be-c185-416d-3f1f30bf9605" name="Merc - Booby Trap" points="5.0" categoryId="b6cb35d8-a279-801b-f50a-00831e2a318f" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="10" collective="false" page="0">
+    <entry id="baa70eff-0307-6396-e671-5e48275d959b" name="Free Line Troop Heavy Weapon" points="0.0" categoryId="814d6be6-0994-87ea-0c48-7b177665d45f" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
       <entries/>
       <entryGroups>
-        <entryGroup id="5d748b92-d15f-fa32-3a1c-3c0d710de387" name="May Upgrade Booby Trap:" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+        <entryGroup id="7e040466-f04b-73e0-29c7-39959fe3d9b6" name="Choose Weapon Option:" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
           <entries>
-            <entry id="0f2baa35-7496-42aa-2c2f-be4de8dcdcce" name="RJ-1027 IED" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="10" collective="false" page="0">
+            <entry id="fd191219-71ca-1d30-26f7-172e75841a28" name="Line Troop Heavy Weapon (Gatling Gun)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
+              <profiles>
+                <profile id="e6cd46fe-4742-492a-407a-8dd5d204440c" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Line Troop Heavy Weapon (Gatling Gun)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
+                    <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+                    <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
+                    <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+                    <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
+                    <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="5+"/>
+                    <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
+                    <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
+                    <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
+                    <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="6+"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
               <links/>
             </entry>
-            <entry id="a85d9463-3581-bc61-baad-470501c98524" name="TNT Barrel Upgrade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="10" collective="false" page="0">
+            <entry id="7e10c88d-819a-a64d-8e7d-4766c9e3db30" name="Line Troop Heavy Weapon (Rocket Pod)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
-              <profiles/>
+              <profiles>
+                <profile id="fe997552-4927-675b-38c7-c1b03bbbec54" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Line Troop Heavy Weapon (Rocket Pod)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
+                    <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+                    <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
+                    <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+                    <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
+                    <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="5+"/>
+                    <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
+                    <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
+                    <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
+                    <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="6+"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
               <links/>
             </entry>
           </entries>
@@ -846,25 +926,18 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="e2fa560b-5792-3946-3a7a-63ead8992313" incrementField="selections" incrementValue="10.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="46f6815f-bf6f-0fa0-5cb6-18d9cbb48579" incrementField="selections" incrementValue="10.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
-      <profiles>
-        <profile id="90483e85-40e8-5a86-c955-c80495aa0e2c" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Merc - Booby Trap" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="1"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="-"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="2&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="-"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="-"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="-"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="-"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="-"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="-"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links/>
     </entry>
   </entries>
