@@ -1,174 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="ceecb107-d853-af87-f466-c746c1cce2d8" revision="1" gameSystemId="9b21e8c8-31b6-82f0-9805-ad62649f1f3d" gameSystemRevision="1" battleScribeVersion="1.14b" name="Lawmen" authorName="Egregious" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="3b384287-94e7-384d-3a12-2977b029b40d" name="Pat Garrett" points="195.0" categoryId="bb13102f-3892-8dee-86a7-b716bdf0f2b2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="b4275f88-442b-766e-522b-3dfd938f80ce" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Pat Garrett" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="20"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="3"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="3+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="7+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="3+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="b215562a-c3d2-5b2e-77e7-4860947ad69d" name="Warren Earp" points="185.0" categoryId="bb13102f-3892-8dee-86a7-b716bdf0f2b2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="3198ef4f-fb56-6d42-cc5a-7b3246aa9dda" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Warren Earp" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="18"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="2"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="4+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="2"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="3474d95c-3aaa-d5f9-1062-f1377bb21d93" name="Wyatt Earp" points="205.0" categoryId="bb13102f-3892-8dee-86a7-b716bdf0f2b2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="6ba15c2a-5573-3b6c-f8cb-bfe2d337fee2" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Wyatt Earp" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="18"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="2"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="4"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="4"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="3+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="3"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="1+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="f55bfb4f-cef7-4b1c-5bec-0f3914eb0b90" name="Virgil Earp" points="150.0" categoryId="57028528-1aa2-280c-827e-779692be7f29" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="7470f14a-a354-509c-9372-da7f922e63a6" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Virgil Earp" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="20"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="2"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="5+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="2"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="f6ea9294-c224-711a-17ff-b86328e81b39" name="Mick Ironclad" points="125.0" categoryId="57028528-1aa2-280c-827e-779692be7f29" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="cc383323-33d0-1ebf-605d-7643e378de01" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Mick Ironclad" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="15"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="1"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="4+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="1e4b687a-0947-38f6-0984-c0f40bd8e46d" name="Marshall McClain" points="130.0" categoryId="57028528-1aa2-280c-827e-779692be7f29" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="aa5e47ad-2734-1153-a809-93f10b34f59b" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Marshall McClain" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="16"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="2"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="6"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="4+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="0"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="20a97043-b086-8849-33cd-b53e38244fd6" name="Doc Holliday" points="165.0" categoryId="57028528-1aa2-280c-827e-779692be7f29" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="e6835720-e7d4-0f9d-970d-45838be29b5e" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Doc Holliday" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="20"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="1"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="2+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="7+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
     <entry id="96285765-d74f-1a26-a2e1-691e976560fb" name="Carl Fredrickson" points="155.0" categoryId="a7679099-570d-b13a-6d81-bcfd58d2b86c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups/>
@@ -193,72 +25,24 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="66ea1d0a-2df9-6708-a0b5-72b9bf793e5a" name="Judge K. Stern" points="110.0" categoryId="a7679099-570d-b13a-6d81-bcfd58d2b86c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+    <entry id="6933e188-da60-96d3-abb3-a602920a1f96" name="Dark Council Member" points="35.0" categoryId="b6cb35d8-a279-801b-f50a-00831e2a318f" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="05566a2a-5f90-d8b7-cc23-261ba0f91668" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Judge K. Stern" hidden="false" page="0">
+        <profile id="7f0b4ccc-23a3-262f-5e41-7bfed078935e" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Dark Council Member" hidden="false" page="0">
           <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="14"/>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="-"/>
             <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="1"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="2&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="-"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="7"/>
             <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="6+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="5+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="2b9df043-38d1-0151-0f2b-45798841fd2f" name="UR-30 Lawbot" points="80.0" categoryId="a7679099-570d-b13a-6d81-bcfd58d2b86c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="9f76a52d-c420-0e24-1c80-c0d21b3d4300" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="UR-30 Lawbot" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="10"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="4"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="6+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="2"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="0"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="0"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="0"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="0"/>
             <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="1+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="55ff3004-1ac3-754f-3293-7c157d04d4dd" name="Deputy Heavy Weapon (Gatling Gun)" points="50.0" categoryId="dfe607a5-ffa5-9768-b16d-bf62ae315f55" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="93f2f34c-6c31-86f2-dd65-6e1bd4eaab0d" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Deputy Heavy Weapon (Gatling Gun)" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="4"/>
-            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="5+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="7+"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="6+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -289,24 +73,24 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="332315d5-b925-9d66-10b0-17b61b00a7ab" name="Deputy Long Range" points="20.0" categoryId="b6cb35d8-a279-801b-f50a-00831e2a318f" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="55ff3004-1ac3-754f-3293-7c157d04d4dd" name="Deputy Heavy Weapon (Gatling Gun)" points="50.0" categoryId="dfe607a5-ffa5-9768-b16d-bf62ae315f55" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="499fec13-c6a8-f3fe-b42f-2c3ae1994067" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Deputy Long Range" hidden="false" page="0">
+        <profile id="93f2f34c-6c31-86f2-dd65-6e1bd4eaab0d" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Deputy Heavy Weapon (Gatling Gun)" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
             <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
             <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="4"/>
             <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="6+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="8+"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="5+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="7+"/>
             <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
             <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="5+"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="6+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -337,21 +121,72 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="b1ffc70b-7992-b870-a120-be46efcbc265" name="Judgement" points="250.0" categoryId="fd33a4c4-f613-0986-fc08-8eaf763a675d" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="332315d5-b925-9d66-10b0-17b61b00a7ab" name="Deputy Long Range" points="20.0" categoryId="b6cb35d8-a279-801b-f50a-00831e2a318f" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="50a3c761-8a1b-5766-9eac-c71d3166ed8f" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" name="Judgement" hidden="false" page="0">
+        <profile id="499fec13-c6a8-f3fe-b42f-2c3ae1994067" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Deputy Long Range" hidden="false" page="0">
           <characteristics>
-            <characteristic characteristicId="505622a7-acf6-8ab1-5fa1-d9539b77568b" name="Power Source Structure Points" value="6"/>
-            <characteristic characteristicId="25d9931b-99b0-bd3c-0330-d5af91118362" name="Weapons Structure Points" value="12"/>
-            <characteristic characteristicId="5219b907-a65b-8cc5-6a28-b0345856632a" name="Propulsion Structure Points" value="6"/>
-            <characteristic characteristicId="91c497a0-33d3-2dd7-f676-ae8da76f0337" name="Quickness" value="5"/>
-            <characteristic characteristicId="32e842f6-a4b7-7368-00ce-e02507a387a0" name="Action Points" value="2"/>
-            <characteristic characteristicId="7452c199-3081-37b0-85c6-2518d7cb8409" name="Marksmanship" value="6+"/>
-            <characteristic characteristicId="bda3d809-e68c-f81f-8e28-056b093355fc" name="Armor" value="7"/>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="6+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="8+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="5+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="20a97043-b086-8849-33cd-b53e38244fd6" name="Doc Holliday" points="165.0" categoryId="57028528-1aa2-280c-827e-779692be7f29" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="e6835720-e7d4-0f9d-970d-45838be29b5e" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Doc Holliday" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="20"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="1"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="2+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="7+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="05522761-05fa-715e-9a22-ab0059f4dd66" name="Interceptor" points="80.0" categoryId="dfe607a5-ffa5-9768-b16d-bf62ae315f55" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="883b5f78-fb29-4284-3760-20653d2ddfe1" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Interceptor" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="13"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="2&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="7"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="6+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="3"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="5+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -431,23 +266,23 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="05522761-05fa-715e-9a22-ab0059f4dd66" name="Interceptor" points="80.0" categoryId="dfe607a5-ffa5-9768-b16d-bf62ae315f55" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="66ea1d0a-2df9-6708-a0b5-72b9bf793e5a" name="Judge K. Stern" points="110.0" categoryId="a7679099-570d-b13a-6d81-bcfd58d2b86c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="883b5f78-fb29-4284-3760-20653d2ddfe1" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Interceptor" hidden="false" page="0">
+        <profile id="05566a2a-5f90-d8b7-cc23-261ba0f91668" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Judge K. Stern" hidden="false" page="0">
           <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="13"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="14"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="1"/>
             <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="2&quot;"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="7"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
             <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
             <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="6+"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
             <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
-            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="3"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
             <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="5+"/>
           </characteristics>
           <modifiers/>
@@ -455,24 +290,45 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="6933e188-da60-96d3-abb3-a602920a1f96" name="Dark Council Member" points="35.0" categoryId="b6cb35d8-a279-801b-f50a-00831e2a318f" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+    <entry id="b1ffc70b-7992-b870-a120-be46efcbc265" name="Judgement" points="250.0" categoryId="fd33a4c4-f613-0986-fc08-8eaf763a675d" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="7f0b4ccc-23a3-262f-5e41-7bfed078935e" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Dark Council Member" hidden="false" page="0">
+        <profile id="50a3c761-8a1b-5766-9eac-c71d3166ed8f" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" name="Judgement" hidden="false" page="0">
           <characteristics>
-            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="-"/>
-            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="1"/>
-            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="-"/>
-            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="7"/>
+            <characteristic characteristicId="505622a7-acf6-8ab1-5fa1-d9539b77568b" name="Power Source Structure Points" value="6"/>
+            <characteristic characteristicId="25d9931b-99b0-bd3c-0330-d5af91118362" name="Weapons Structure Points" value="12"/>
+            <characteristic characteristicId="5219b907-a65b-8cc5-6a28-b0345856632a" name="Propulsion Structure Points" value="6"/>
+            <characteristic characteristicId="91c497a0-33d3-2dd7-f676-ae8da76f0337" name="Quickness" value="5"/>
+            <characteristic characteristicId="32e842f6-a4b7-7368-00ce-e02507a387a0" name="Action Points" value="2"/>
+            <characteristic characteristicId="7452c199-3081-37b0-85c6-2518d7cb8409" name="Marksmanship" value="6+"/>
+            <characteristic characteristicId="bda3d809-e68c-f81f-8e28-056b093355fc" name="Armor" value="7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="1e4b687a-0947-38f6-0984-c0f40bd8e46d" name="Marshall McClain" points="130.0" categoryId="57028528-1aa2-280c-827e-779692be7f29" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="aa5e47ad-2734-1153-a809-93f10b34f59b" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Marshall McClain" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="16"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="2"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="6"/>
             <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
-            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="0"/>
-            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="0"/>
-            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="0"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="4+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
             <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="0"/>
-            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="1+"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -789,6 +645,223 @@
           <modifiers/>
         </profile>
       </profiles>
+      <links/>
+    </entry>
+    <entry id="f6ea9294-c224-711a-17ff-b86328e81b39" name="Mick Ironclad" points="125.0" categoryId="57028528-1aa2-280c-827e-779692be7f29" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="cc383323-33d0-1ebf-605d-7643e378de01" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Mick Ironclad" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="15"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="1"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="4+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3b384287-94e7-384d-3a12-2977b029b40d" name="Pat Garrett" points="195.0" categoryId="bb13102f-3892-8dee-86a7-b716bdf0f2b2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="b4275f88-442b-766e-522b-3dfd938f80ce" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Pat Garrett" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="20"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="3"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="3+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="7+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="3+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2b9df043-38d1-0151-0f2b-45798841fd2f" name="UR-30 Lawbot" points="80.0" categoryId="a7679099-570d-b13a-6d81-bcfd58d2b86c" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9f76a52d-c420-0e24-1c80-c0d21b3d4300" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="UR-30 Lawbot" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="10"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="4"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="6+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="2"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="1+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f55bfb4f-cef7-4b1c-5bec-0f3914eb0b90" name="Virgil Earp" points="150.0" categoryId="57028528-1aa2-280c-827e-779692be7f29" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="7470f14a-a354-509c-9372-da7f922e63a6" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Virgil Earp" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="20"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="2"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="5+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="2"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="b215562a-c3d2-5b2e-77e7-4860947ad69d" name="Warren Earp" points="185.0" categoryId="bb13102f-3892-8dee-86a7-b716bdf0f2b2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="3198ef4f-fb56-6d42-cc5a-7b3246aa9dda" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Warren Earp" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="18"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="2"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="5"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="3"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="4+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="5+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="2"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="2+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3474d95c-3aaa-d5f9-1062-f1377bb21d93" name="Wyatt Earp" points="205.0" categoryId="bb13102f-3892-8dee-86a7-b716bdf0f2b2" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6ba15c2a-5573-3b6c-f8cb-bfe2d337fee2" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Wyatt Earp" hidden="false" page="0">
+          <characteristics>
+            <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="18"/>
+            <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="2"/>
+            <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="1&quot;"/>
+            <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="4"/>
+            <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="4"/>
+            <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="3+"/>
+            <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
+            <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="2"/>
+            <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="3"/>
+            <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="1+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="f2d420bc-af81-c659-ca5d-5d3ad695aeaa" name="Free Deputy Heavy Weapon" points="0.0" categoryId="814d6be6-0994-87ea-0c48-7b177665d45f" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="9810bfbb-1581-44e5-38a0-cc9704e1f481" name="Choose Weapon Option:" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="5f72ccd3-4baa-23a0-84f4-de70c1a29911" name="Deputy Heavy Weapon (Gatling Gun)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="2a476876-31aa-422b-1eaf-ae5e113b3944" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Deputy Heavy Weapon (Gatling Gun)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
+                    <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+                    <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
+                    <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="4"/>
+                    <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
+                    <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="5+"/>
+                    <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="7+"/>
+                    <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
+                    <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
+                    <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="6+"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="8ac6e65b-1219-f556-214d-a5599501266f" name="Deputy Heavy Weapon (Shotgun)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="cfc0a466-a8b9-1094-751e-53c0bec4bd3f" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Deputy Heavy Weapon (Shotgun)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
+                    <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+                    <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
+                    <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="4"/>
+                    <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
+                    <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="5+"/>
+                    <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="7+"/>
+                    <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
+                    <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="1"/>
+                    <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="6+"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="332315d5-b925-9d66-10b0-17b61b00a7ab" incrementField="selections" incrementValue="10.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="5a85ff51-5f27-2df8-a44e-06a812b0a87e" incrementField="selections" incrementValue="10.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
       <links/>
     </entry>
   </entries>
