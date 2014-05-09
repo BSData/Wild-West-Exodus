@@ -939,6 +939,79 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="bc8a6a49-9b4f-64ac-2f99-0b90b9a33992" name="Free Bandit Heavy Weapon" points="0.0" categoryId="814d6be6-0994-87ea-0c48-7b177665d45f" type="model" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="0" collective="false" page="0">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="2f0e33b8-9574-cc45-e2ba-418133315f0f" name="Choose Weapon Option:" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false">
+          <entries>
+            <entry id="018284af-167b-5ed3-4e7c-b288560ec099" name="Bandit Heavy Weapon (Shotgun)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="305a7c54-3229-e64d-7c4f-16ef100e421c" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Bandit Heavy Weapon (Shotgun)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
+                    <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+                    <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
+                    <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="6"/>
+                    <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
+                    <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="6+"/>
+                    <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
+                    <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
+                    <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="0"/>
+                    <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="5+"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="f1e3ffd7-f1db-517e-074b-1eac7e0705db" name="Bandit Heavy Weapon (Sniper Rifle)" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="705e53d2-aa89-d38f-035d-b770ccbda38b" profileTypeId="67554ae9-9594-5a4d-5b19-38f7f3a717ed" name="Bandit Heavy Weapon (Sniper Rifle)" hidden="false" page="0">
+                  <characteristics>
+                    <characteristic characteristicId="3af28f20-07ae-12ea-d3b3-653dbb2f7f5d" name="Lifeblood" value="6"/>
+                    <characteristic characteristicId="62f8ac54-d70a-a38d-64c4-cf0684b54761" name="Influence" value="0"/>
+                    <characteristic characteristicId="3409c1f2-79dd-d813-07e0-ebf6ead50b96" name="Halo" value="0.5&quot;"/>
+                    <characteristic characteristicId="8676af4f-c377-0474-7e00-a60d31699416" name="Quickness" value="6"/>
+                    <characteristic characteristicId="5336d55e-3dea-3eaf-5c2d-349d108e1150" name="Action Points" value="2"/>
+                    <characteristic characteristicId="ad89e631-77a3-2fca-d75f-699b7e123d74" name="Marksmanship" value="5+"/>
+                    <characteristic characteristicId="ae4ddf53-29f9-68ec-848c-3041fa5ef074" name="Physical Ability" value="6+"/>
+                    <characteristic characteristicId="260f8bf8-5dac-6983-81f2-3a0625d4f397" name="Strikes" value="1"/>
+                    <characteristic characteristicId="2ac82bf9-f25b-c383-be8f-16e8a39921a1" name="Armor" value="0"/>
+                    <characteristic characteristicId="d6531caa-2df0-0aba-54d0-36088eda208d" name="Courage" value="5+"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="b47f210a-7159-c5ce-f34a-f4016249f958" incrementField="selections" incrementValue="10.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="maxInRoster" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="ded4577a-af3b-8d9c-7300-2134956b690f" incrementField="selections" incrementValue="10.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
   </entries>
   <rules/>
   <links/>
