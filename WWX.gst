@@ -309,6 +309,61 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="fc50-d0cf-1210-864e" name="General List (no Posse)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="f181-82f5-b68a-cdc7" name="Bosses" hidden="false" targetId="4e5f-f572-3d17-458b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d2a-d654-5796-63f3" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8023-1375-f95e-1346" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="889d-95d1-48e7-d6e7" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="da71-c849-ce0b-9c12" name="Hands" hidden="false" targetId="1f34-f721-c390-2cde" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="33fc-378d-4168-0d9d" name="Support" hidden="false" targetId="8f95-e58c-8e6f-c637" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="db09-226a-5c94-7cd3" name="Artefact" hidden="false" targetId="5f19-88bf-ae56-72fb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="171c-492d-554f-9ba9" name="Strategic" hidden="false" targetId="759c-8da4-8a4d-c34b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="678b-59ca-506d-ad7a" name="Booby Trap" hidden="false" collective="false" type="model">

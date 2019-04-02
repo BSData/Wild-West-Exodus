@@ -28,49 +28,7 @@
       <constraints/>
     </categoryEntry>
   </categoryEntries>
-  <forceEntries>
-    <forceEntry id="b877-30ed-6a2d-6883" name="Faction Posse" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <forceEntries/>
-      <categoryLinks>
-        <categoryLink id="07f3-71fd-4587-8003" name="Bosses" hidden="false" targetId="4e5f-f572-3d17-458b" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ee-c672-00c9-420c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c02-7737-e738-e6a8" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="75b9-cfe6-825a-acd2" name="Hands" hidden="false" targetId="1f34-f721-c390-2cde" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="92bd-eb65-c8db-8b5f" name="Face" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="92d3-45ef-f5f7-5369" name="Support" hidden="false" targetId="8f95-e58c-8e6f-c637" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-  </forceEntries>
+  <forceEntries/>
   <selectionEntries>
     <selectionEntry id="04b8-a5eb-64ed-8491" name="Raging Bear (Legendary)" hidden="false" collective="false" type="model">
       <profiles/>
