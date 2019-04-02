@@ -28,7 +28,275 @@
       <constraints/>
     </categoryEntry>
   </categoryEntries>
-  <forceEntries/>
+  <forceEntries>
+    <forceEntry id="9033-e4bc-2003-2a2d" name="Warrior Nation Faction Posse" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries>
+        <forceEntry id="dc66-ef3f-4e25-65e3" name="1. Slot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="dad7-5762-4443-610a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="5fe3-2fa8-5beb-db2e" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dad7-5762-4443-610a" type="max"/>
+          </constraints>
+          <forceEntries/>
+          <categoryLinks>
+            <categoryLink id="48f0-c419-cb84-ce45" name="Hands" hidden="false" targetId="1f34-f721-c390-2cde" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="dc66-ef3f-4e25-65e3" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46e3-fc1c-e4c8-1bc8" type="max"/>
+                <constraint field="selections" scope="dc66-ef3f-4e25-65e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5821-10d7-70cb-c9d4" type="min"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="5fe3-2fa8-5beb-db2e" name="0. Slot (Boss)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e8da-6331-2f4e-d917" type="max"/>
+          </constraints>
+          <forceEntries/>
+          <categoryLinks>
+            <categoryLink id="2f2d-ae4c-65fb-9e61" name="Bosses" hidden="false" targetId="4e5f-f572-3d17-458b" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3d2-dbbb-c78b-a4fc" type="max"/>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25ac-67a1-31b3-7c67" type="min"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="4a43-7b82-de48-4033" name="2. Slot " hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="6799-bd93-92e2-42f7" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="dc66-ef3f-4e25-65e3" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6799-bd93-92e2-42f7" type="max"/>
+            <constraint field="selections" scope="4a43-7b82-de48-4033" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4685-b604-7b9f-27fd" type="min"/>
+          </constraints>
+          <forceEntries/>
+          <categoryLinks>
+            <categoryLink id="29c6-2abb-8459-1f39" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="4a43-7b82-de48-4033" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77e9-93f6-e3f7-693e" type="max"/>
+                <constraint field="selections" scope="4a43-7b82-de48-4033" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2566-fa4a-46af-83af" type="min"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink id="7bc6-0376-a194-bec1" name="Hands" hidden="false" targetId="1f34-f721-c390-2cde" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="4a43-7b82-de48-4033" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7695-7316-3908-0625" type="max"/>
+                <constraint field="selections" scope="4a43-7b82-de48-4033" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54a1-b56e-cc8c-b702" type="min"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="478b-3406-14ab-dcbf" name="3. Slot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="1f1f-a6f2-fc7a-c601" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="4a43-7b82-de48-4033" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f1f-a6f2-fc7a-c601" type="max"/>
+            <constraint field="selections" scope="478b-3406-14ab-dcbf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bd2-60a4-9a22-b19e" type="min"/>
+          </constraints>
+          <forceEntries/>
+          <categoryLinks>
+            <categoryLink id="66fe-4e6f-8a14-ba16" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="478b-3406-14ab-dcbf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4a5-9673-b6e0-b247" type="max"/>
+                <constraint field="selections" scope="478b-3406-14ab-dcbf" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d36e-9551-08b2-549c" type="min"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink id="844c-f62b-7892-2729" name="Support" hidden="false" targetId="8f95-e58c-8e6f-c637" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="478b-3406-14ab-dcbf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5347-4418-40b4-6594" type="max"/>
+                <constraint field="selections" scope="478b-3406-14ab-dcbf" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c10-c36d-70a8-58d3" type="min"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="1886-f750-9b18-3341" name="4. Slot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="fd10-ec9e-0726-cbf8" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="478b-3406-14ab-dcbf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fd10-ec9e-0726-cbf8" type="max"/>
+            <constraint field="selections" scope="1886-f750-9b18-3341" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ea9-9834-e7e7-e609" type="min"/>
+          </constraints>
+          <forceEntries/>
+          <categoryLinks>
+            <categoryLink id="0747-a613-81fb-c8c2" name="Hands" hidden="false" targetId="1f34-f721-c390-2cde" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="1886-f750-9b18-3341" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70d8-148c-d7cf-37b0" type="max"/>
+                <constraint field="selections" scope="1886-f750-9b18-3341" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f2b-2663-c22a-6c30" type="min"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink id="f0cd-3237-adde-389b" name="Support" hidden="false" targetId="8f95-e58c-8e6f-c637" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="1886-f750-9b18-3341" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d345-2a19-f82a-be8b" type="max"/>
+                <constraint field="selections" scope="1886-f750-9b18-3341" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9df-6c4e-7c3e-0565" type="min"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="efe2-bdcb-456b-73fb" name="5. Slot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="e373-bf83-ca1c-5ce2" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="1886-f750-9b18-3341" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e373-bf83-ca1c-5ce2" type="max"/>
+            <constraint field="selections" scope="efe2-bdcb-456b-73fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d788-6271-9833-dee6" type="min"/>
+          </constraints>
+          <forceEntries/>
+          <categoryLinks>
+            <categoryLink id="5a38-0914-b360-f2bd" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="efe2-bdcb-456b-73fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="322f-f90a-2f69-4221" type="max"/>
+                <constraint field="selections" scope="efe2-bdcb-456b-73fb" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e92-4de7-e69a-a920" type="min"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink id="2ee0-ca91-c0e1-d8cf" name="Hands" hidden="false" targetId="1f34-f721-c390-2cde" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="efe2-bdcb-456b-73fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da97-4b42-f6c2-cac4" type="max"/>
+                <constraint field="selections" scope="efe2-bdcb-456b-73fb" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c08a-f365-47a1-e0ed" type="min"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
+        </forceEntry>
+        <forceEntry id="93af-b97a-afe9-ef25" name="6. Slot" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="6a4c-fd54-6ef9-5c25" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="efe2-bdcb-456b-73fb" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6a4c-fd54-6ef9-5c25" type="max"/>
+            <constraint field="selections" scope="93af-b97a-afe9-ef25" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45d4-c82d-8d2d-9a8a" type="min"/>
+          </constraints>
+          <forceEntries/>
+          <categoryLinks>
+            <categoryLink id="62b0-625a-d049-c351" name="Support" hidden="false" targetId="8f95-e58c-8e6f-c637" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="93af-b97a-afe9-ef25" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db68-d6f0-a070-6d1d" type="max"/>
+                <constraint field="selections" scope="93af-b97a-afe9-ef25" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77cf-6a97-3230-d12e" type="min"/>
+              </constraints>
+            </categoryLink>
+            <categoryLink id="cbec-3af3-721e-667f" name="Hands" hidden="false" targetId="1f34-f721-c390-2cde" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="93af-b97a-afe9-ef25" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faf0-26fa-4eec-5e00" type="max"/>
+                <constraint field="selections" scope="93af-b97a-afe9-ef25" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c0c-7b93-e43a-1c8c" type="min"/>
+              </constraints>
+            </categoryLink>
+          </categoryLinks>
+        </forceEntry>
+      </forceEntries>
+      <categoryLinks/>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="04b8-a5eb-64ed-8491" name="Raging Bear (Legendary)" hidden="false" collective="false" type="model">
       <profiles/>
