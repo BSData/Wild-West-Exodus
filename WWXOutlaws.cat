@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="17ad5175-0350-7ecd-06c4-e1232409cb93" name="Outlaws" revision="2" battleScribeVersion="2.01" authorName="Egregious" gameSystemId="9b21e8c8-31b6-82f0-9805-ad62649f1f3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="17ad5175-0350-7ecd-06c4-e1232409cb93" name="Outlaws" revision="3" battleScribeVersion="2.01" authorName="Reanimated" authorContact="wilson1225@gmail.com" gameSystemId="9b21e8c8-31b6-82f0-9805-ad62649f1f3d" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -9,7 +9,119 @@
   <forceEntries/>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="8d5f-8e78-1c3a-2ae2" name="•Marie Laveau" hidden="false" targetId="4e8c-6850-c712-e820" type="selectionEntry">
+    <entryLink id="8d5f-8e78-1c3a-2ae2" name="Marie Laveau" hidden="false" targetId="4e8c-6850-c712-e820" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="6f7b-7272-2f89-dd7b" name="Billy The Kid" hidden="false" targetId="8749-69d7-8d26-19d9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a6eb-a7fe-62aa-0f24" name="Caym" hidden="false" targetId="91c9-6ae8-868f-693b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="e9c1-d579-a44b-4303" name="Earle Shepherd" hidden="false" targetId="0106-a2de-8a07-a331" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f341-76f2-c021-b996" name="Felipe Espinosa" hidden="false" targetId="a54e-902d-6559-48a8" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="f3dc-0b69-69c5-709b" name="Jesse James" hidden="false" targetId="7c3e-e2c2-ae94-f32c" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3fdc-836f-abcc-9850" name="Johnny Ringo" hidden="false" targetId="d79a-a55b-a674-df41" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="5924-17e3-6875-a88e" name="Juan Ponce De Leon" hidden="false" targetId="8b79-5075-cf59-87af" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="31e4-44ab-70e3-31ec" name="Marcus Wayward" hidden="false" targetId="2c76-474f-b354-2bfd" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="c1cb-533b-f9d7-f8a7" name="Pancho Villa" hidden="false" targetId="85a0-b490-7122-8b59" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a48a-2816-07c2-b894" name="Rani Nimue" hidden="false" targetId="7ba1-b8e1-d966-cd15" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="a711-585c-5195-d257" name="Stonewall Jackson" hidden="false" targetId="3c24-a338-58e5-d655" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="d1da-f06c-24d4-3fb6" name="Viktor Beitel" hidden="false" targetId="5140-62cd-fad0-6405" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="4809-91c9-efab-5362" name="William Quantrill" hidden="false" targetId="e08f-1dbe-32a6-7b5e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="59b6-81f1-c070-73f7" name="Jesse James (Legendary)" hidden="false" targetId="e3c9-823c-4bb1-8638" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
