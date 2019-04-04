@@ -421,6 +421,20 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="dd38-2aea-9195-9ded" name="Priest" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="4562-36fd-b31d-5320" name="Blackhoof" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="3391-126b-07ef-4b56" name="Boss" hidden="false">
@@ -4445,7 +4459,56 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="0301-142e-79e0-61bc" name="Unique" hidden="false" targetId="0c90-44c9-d012-1bea" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c4f7-e9d1-0fc3-a308" name="Dying Breath" hidden="false" targetId="17fd-d7ae-755b-9e85" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d9ff-cf81-425a-cd7f" name="Failsafe Detonator" hidden="false" targetId="feb4-a4a8-f38c-94f3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9e6e-4dde-ec87-ed5d" name="Creation" hidden="false" targetId="9be6-3303-44f0-823b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7f22-43ca-700b-dc9a" name="Bloodthirsty" hidden="false" targetId="8636-064c-e867-dd01" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2499-eca5-51bd-cc87" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cb51-1594-0374-f882" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4ad7-c0a8-94ba-32eb" name="Gunfighter" hidden="false" targetId="428b-2eed-fdaf-2c95" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>
@@ -4499,25 +4562,130 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="2813-c4bd-643e-4c62" name="Hammerhands" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6eac-2fd9-ae2c-a30e" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="1c7a-6518-3e65-4e99" name="Disorder" hidden="false" targetId="b5cf-2f87-0dbe-cc5f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="bef1-d62d-0d4c-06e1" name="Hammerhands" hidden="false" targetId="7aa3-d4e1-093f-3d60" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42c1-087b-a38f-817e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1ec-ae54-b0ae-8d7e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7033-ad0b-4632-4b1c" name="Juiced Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="cad8-e980-4a64-f711" name="Juiced Pistols" hidden="false" targetId="d779-0856-ce7d-60e7" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="edfa-e8a8-7974-5617" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4332-17ea-a17e-bb00" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b1f8-6792-ede7-30ca" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ec-eaea-2681-0df6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38aa-7389-e7d0-303f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4409-5ec8-90ca-cfbb" name="Failsafe Implant" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="27d1-ad1b-991f-d1c2" name="Suicide" hidden="false" targetId="3c72-1c70-0905-ac20" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="e1c8-7efd-956e-5302" name="Shred" hidden="false" targetId="368d-afd0-7f3f-5d2e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b574-c59d-f186-d946" name="Blast" hidden="false" targetId="d400-6ae5-653f-5c4e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0e85-a962-103b-3362" name="Failsafe Implant" hidden="false" targetId="e8a0-822c-b39e-a89f" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="175.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="530d-75ff-ee9f-ec79" name="Hammerhands" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d833-5e72-b79c-4efe" name="Johnny Ringo" hidden="false" collective="false" type="unit">
@@ -5448,6 +5616,2690 @@
         <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7605-bbd8-8a4c-1a50" name="Annabelle Hamilton" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="9cd0-feff-38a7-dea3" name="Annabelle Hamilton" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="7"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a224-5fae-835c-baf8" name="Carpathogen" hidden="false" targetId="ec1d-4df3-5465-a29e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7531-8044-259d-7497" name="Rebel Yell" hidden="false" targetId="0545-d191-1be1-46b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb1c-96dc-fcb6-4971" name="Tactical Brilliance" hidden="false" targetId="a574-67ae-717a-ab65" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e08b-9d02-9576-fd8e" name="Rabble Rouser" hidden="false" targetId="5a48-2e35-94e2-6bae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e58c-3731-ab50-d4f3" name="Portal Mastery" hidden="false" targetId="61f0-bdf1-60c0-0fb5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8f55-8646-cc83-f6fb" name="Unique" hidden="false" targetId="0c90-44c9-d012-1bea" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fa49-504d-0a8d-ead9" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="29e3-63b5-a5be-44ed" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="55cd-5eff-abe5-9301" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="41bb-42bb-960c-b0e2" name="Largesse" hidden="false" targetId="1466-09ad-7c63-fde5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8732-7ff8-feeb-8b37" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82f4-ed1c-42c9-9977" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4851-3622-a5f5-abe7" name="New CategoryLink" hidden="false" targetId="4e5f-f572-3d17-458b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9ea7-ef0b-9be5-7307" name="Enlightenend" hidden="false" targetId="c768-9942-077b-bb01" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5aaf-9f86-517c-2fda" name="Female" hidden="false" targetId="3620-2a28-c3fe-9a53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b1c3-1494-c80a-83b9" name="Human" hidden="false" targetId="2959-545d-5227-6114" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2977-63d3-0d78-7f1d" name="Confederate" hidden="false" targetId="999b-8b0a-d7d2-b74c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7a5c-98c0-db7e-0123" name="Tainted" hidden="false" targetId="4338-f0b6-00da-9e53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="86cb-23cd-2ac3-7c0f" name="Hammerhand" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="152b-a721-8a38-4dc1" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fcd6-0fcc-0238-525f" name="Disorder" hidden="false" targetId="b5cf-2f87-0dbe-cc5f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d080-fc75-4cec-99e8" name="Hammerhand" hidden="false" targetId="5617-2281-c9ad-0b3e" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6cc-6aa1-047d-1d67" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c885-b7b7-5314-86f2" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a9d6-bc0f-8ce0-1485" name="Mousegun" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="228e-871f-d62c-320d" name="Mousegun" hidden="false" targetId="5850-3477-8fa7-6e1a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5bf3-21ad-0368-e1ae" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5c10-96b9-9b2c-1c94" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="374d-e110-2306-89ef" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f39c-55ab-8da2-da60" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8fac-0ab5-6769-d3b9" name="Thermite Grenades" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="845d-b913-5a58-8d80" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2a57-91b7-509d-7628" name="Blast" hidden="false" targetId="d400-6ae5-653f-5c4e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="eb78-879e-cd7e-6966" name="Indirect" hidden="false" targetId="dc1e-e0fa-404f-3bd8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="948f-e247-14d8-a2ff" name="Thermite Grenades" hidden="false" targetId="ff23-236c-58bf-a7dd" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="e6a7-6680-3bef-ddb5" name="Hazardous" hidden="false" targetId="7125-098f-0f6e-6065" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fe5-0046-9fb7-4c82" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b228-4952-e64f-275b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="230.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="22a2-78ed-f99b-0392" name="Hammerhand" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fcf9-5ae4-ccad-0079" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="caf2-3e92-7701-08e9" name="Disorder" hidden="false" targetId="b5cf-2f87-0dbe-cc5f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="36e7-f35b-6f5e-f368" name="Hammerhand" hidden="false" targetId="5617-2281-c9ad-0b3e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b57-1298-42f1-673f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="802d-5f07-5871-3349" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="404d-7261-e55a-ac16" name="Mousegun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b36d-cfbc-f9ee-8041" name="Mousegun" hidden="false" targetId="5850-3477-8fa7-6e1a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c952-1813-e2fc-0fd0" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c43f-86fe-95c3-e0c7" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ff3-eef8-23e7-49c2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9113-e856-5fd3-c5fb" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4683-de9c-2eda-0527" name="Madre Monica Perez" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="49dc-7c2d-1640-e973" name="Madre Monica Perez" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="7"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="7"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1174-d0af-f973-996a" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9884-1ae8-e0e7-a234" name="Moving Target" hidden="false" targetId="5599-fcda-4891-9c0c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0822-e7fb-a79d-20e3" name="Largesse" hidden="false" targetId="1466-09ad-7c63-fde5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ef5-0fc3-cf37-c6cb" name="Unstoppable" hidden="false" targetId="85b8-ba26-ee7c-8bcd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="93b0-0539-df64-cf2c" name="Inspirational" hidden="false" targetId="2551-e4fc-3c56-3874" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="914a-33a4-e874-f47a" name="Rapid" hidden="false" targetId="74e4-df7a-34f5-5500" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e7cc-8899-0a61-669a" name="Team Player" hidden="false" targetId="a91d-054c-a7ca-592b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc8a-47df-a4a3-a3cb" name="Fateweaver" hidden="false" targetId="3d29-15dc-ae54-fc6b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5bb7-fb09-cd80-c703" name="Invigorate" hidden="false" targetId="6757-c497-214d-16ea" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="aa6f-604d-7ac3-fd15" name="Compel" hidden="false" targetId="9c43-af46-baae-4549" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="92b4-a94c-08d2-0611" name="Bosses" hidden="false" targetId="4e5f-f572-3d17-458b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="ed99-ff02-b1a4-153d" name="Conquistadores" hidden="false" targetId="5c26-3d0b-e634-2dcd" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="11ed-c545-d021-1f48" name="Female" hidden="false" targetId="3620-2a28-c3fe-9a53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8425-7f8e-7e4a-6ec9" name="Human" hidden="false" targetId="2959-545d-5227-6114" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="8fab-52d2-be57-24ef" name="Mercenary" hidden="false" targetId="0f35-7fa0-d840-2b82" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2f16-121a-bbae-b633" name="Mounted" hidden="false" targetId="3e31-72f2-5743-20e1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f729-e225-e5da-fb38" name="Priest" hidden="false" targetId="dd38-2aea-9195-9ded" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="08cb-78c2-4116-9148" name="Blackhoof" hidden="false" targetId="4562-36fd-b31d-5320" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e35c-144f-d718-0d48" name="Golden Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5bfc-c6b2-9639-4c89" name="Golden Pistol" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="10&quot;"/>
+                <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+                <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+                <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Revolver Fan, Ammo Clip, Close Work"/>
+                <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d2c9-2bf3-2aaa-ebf5" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="e431-7af6-1452-386e" name="Ammo Clip" hidden="false" targetId="7afb-5b43-39ae-6154" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="05f2-29de-6c04-cdbf" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f1-a23d-8f38-bcf5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88aa-756f-879a-d28b" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="48ff-35df-6502-c6dd" name="Blessed Bomb of Antioch" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ab47-6306-0edd-aeb0" name="Blessed Bomb of Antioch" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="6&quot;"/>
+                <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-4"/>
+                <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+                <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Engulf, Heavy, Blast"/>
+                <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Brutal"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9474-1007-6492-dd12" name="Blast" hidden="false" targetId="d400-6ae5-653f-5c4e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="23c4-8645-4cd7-4af0" name="Heavy" hidden="false" targetId="dc92-252b-b1ca-4abe" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="1cc1-3079-d6e4-8061" name="Engulf" hidden="false" targetId="6ad3-c6e7-3577-2a4a" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6763-8dce-27a8-67bf" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4df0-cc3e-b0b9-9e53" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74c0-243e-6170-6b74" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c8ce-e1b5-45a0-a765" name="Shield of Moreno" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="26ca-4ab9-30f9-64d0" name="Shield of Moreno" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="-"/>
+                <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="0"/>
+                <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+                <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Parry"/>
+                <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="aecf-02be-289f-36f7" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0859-4666-c6cb-e95e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33bc-99dc-90fd-83a6" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="225.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9d2-d025-aac1-9562" name="Golden Pistol" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="a251-a59b-7068-af70" name="Golden Pistol" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="10&quot;"/>
+            <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+            <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+            <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Revolver Fan, Ammo Clip, Close Work"/>
+            <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0f0b-062b-f56b-b3cc" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0c2a-8630-30f6-105b" name="Ammo Clip" hidden="false" targetId="7afb-5b43-39ae-6154" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b32a-0479-8a66-fae8" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cdd-bbc4-012f-70b2" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b089-264b-071a-4f55" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1960-9400-ec55-cdf7" name="Hammerhands" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ca46-6a00-8905-4ac9" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="022f-90cb-5f7b-3f7a" name="Disorder" hidden="false" targetId="b5cf-2f87-0dbe-cc5f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e3b9-4865-3099-b9cb" name="Hammerhands" hidden="false" targetId="7aa3-d4e1-093f-3d60" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a305-1a4f-4ccb-04f2" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49ee-7bf8-5405-99c1" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8a0-822c-b39e-a89f" name="Failsafe Implant" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="af58-1f92-5661-6ceb" name="Suicide" hidden="false" targetId="3c72-1c70-0905-ac20" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3869-0ffa-9a46-c77f" name="Shred" hidden="false" targetId="368d-afd0-7f3f-5d2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f67a-686c-995f-3016" name="Blast" hidden="false" targetId="d400-6ae5-653f-5c4e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="da24-f067-82f9-38f3" name="Failsafe Implant" hidden="false" targetId="e8a0-822c-b39e-a89f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="48ad-9f92-53af-de82" name="The Apache Kid" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="05d9-205c-d668-69e7" name="The Apache Kid" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="4"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="4"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d022-a946-d280-4730" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2b42-85dd-bf54-48b1" name="Dying Breath" hidden="false" targetId="17fd-d7ae-755b-9e85" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f702-1f8d-5dd8-fc18" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b572-302a-2344-b117" name="Sure Foot" hidden="false" targetId="ae83-8c05-d149-20ab" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c820-61b5-ddc8-bcc1" name="Trailfinder" hidden="false" targetId="bf15-949d-58d8-8a65" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="65f5-eeb8-b31b-4730" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cfa1-b5f1-4cff-3d27" name="Forward Echelon" hidden="false" targetId="d010-3e9c-e6de-eec9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3005-94d4-f4ad-a0ff" name="Trapper" hidden="false" targetId="38da-80d1-ed71-4c72" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c7a3-5084-7b56-fd72" name="Spirit Aim" hidden="false" targetId="144b-880e-fcf1-2b63" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="dd64-d0ef-96f0-4bf3" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f8a2-71fb-ba57-107b" name="Human" hidden="false" targetId="2959-545d-5227-6114" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b330-1ca0-b6d1-75b7" name="Lawmen" hidden="false" targetId="1bd0-4fcc-51f3-5aab" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1756-f309-1bac-67a7" name="Male" hidden="false" targetId="d97b-affd-828c-3f55" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2b31-6888-9862-d062" name="Mercenary" hidden="false" targetId="0f35-7fa0-d840-2b82" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="12fa-dc89-b42f-7e77" name="Regulators" hidden="false" targetId="a06b-89c2-8ec5-3591" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="641c-0ab7-3605-960c" name="Warrior Nation" hidden="false" targetId="b91f-8e84-239b-ebf8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="2ad1-544a-9b33-29d4" name="Outlaws" hidden="false" targetId="3ba7-5fcc-0fe1-5503" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="fd18-466b-627e-fd49" name="Pistol" hidden="false" targetId="ea72-c981-5339-d0c1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0209-9391-91fd-f8fd" name="Tomahawk" hidden="false" targetId="3cde-eeba-939e-dc2c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1d79-41ce-5329-73b6" name="Spirit Bow" hidden="false" targetId="2cc5-63e2-4e4b-18ca" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3cde-eeba-939e-dc2c" name="Tomahawk" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8363-0599-fd5e-5339" name="Tomahawk" hidden="false" targetId="33a3-4cda-d57c-ecc5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2bf1-a254-d27f-1169" name="Thrown" hidden="false" targetId="7b3e-d5d1-27dd-26d4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="520b-ed24-1791-ea0d" name="Decapitate" hidden="false" targetId="bf1b-a623-0d35-4b78" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a247-b1c0-7451-a0b5" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0812-9722-24c2-4a33" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="2cc5-63e2-4e4b-18ca" name="Spirit Bow" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="47c6-3dd8-dae1-f903" name="Spirit Bow" hidden="false" targetId="c68e-15fe-0692-307c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ad58-7787-49fc-173a" name="Attuned" hidden="false" targetId="452f-cefb-3b32-438d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="132c-980b-acd1-bb9a" name="Decapitate" hidden="false" targetId="bf1b-a623-0d35-4b78" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a66f-7b38-bec2-802c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a08-dd40-5380-9840" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="76c3-0b6a-ddd9-f319" name="Kodiak" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6749-ca19-b004-58cd" name="Kodiak" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="4"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="8"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1264-db22-f973-96e5" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a766-925a-f69c-abc5" name="Black Blood" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8327-ea42-fb5f-45a5" name="Black Blood" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="7"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="144f-95d1-368a-d3b4" name="James Mcclain" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6dbf-b972-6bcd-4716" name="James Mcclain" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d910-67ea-5079-8b15" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e827-72c6-418e-a243" name="Misty Mimms" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6e5c-fc0f-4971-772c" name="Misty Mimms" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="4"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6e5d-750d-4a02-aa07" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bdac-851d-a55c-94fc" name="Idina Vannez" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6617-cfe0-bd4e-011a" name="Idina Vannez" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="7"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bb0b-1efc-0669-f333" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9b8e-b956-9606-f9e0" name="Faraday" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ba96-f74a-9775-81f5" name="Faraday" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="7"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3802-df58-2775-41b5" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93e8-eafb-1a1d-2e5b" name="Razors Li" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="eabf-ce15-1c4e-8679" name="Razors Li" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="7"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0bc6-2cf2-99c5-d9cd" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1fb7-62d4-0005-68b3" name="Alan Knox" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8df1-0a2a-7682-f932" name="Alan Knox" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="7"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4939-1708-479f-44f9" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a83-ce29-8cbb-b44b" name="Brutus" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="9558-1eae-303d-ca0b" name="Brutus" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="2"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="1"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6289-a745-8cc3-5fcd" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4414-d0be-e83f-60ef" name="Sadie Walker" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="bf5f-abe6-3f36-9d92" name="Sadie Walker" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="4"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="9c23-1636-9ce9-d502" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a4d3-5199-9561-767e" name="Bill Brocius" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6bb6-3a49-c8a4-0b2e" name="Bill Brocius" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c43f-3b20-82ad-729c" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="245e-8196-16ef-d9a5" name="Frank James" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0108-97e5-6a89-f485" name="Frank James" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f0dd-6b1d-78e7-1505" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b1a5-3043-4a66-34be" name="Broad Arrow Jack" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f72a-0c51-a8f9-c1d3" name="Broad Arrow Jack" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="07ff-dfb2-80ff-e960" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ae2-9e2e-b3ad-f929" name="Amadeo Savoia" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3fb8-680e-0091-46c7" name="Amadeo Savoia" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="4"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="419d-aac4-7493-57f4" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fe6-ae6a-cdf9-c155" name="Cole Younger" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="21fb-5873-ee5f-7d65" name="Cole Younger" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a49a-f375-bc05-9950" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="139a-16d0-5f87-8007" name="Jake Williamson" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="af56-f5b6-7d26-a322" name="Jake Williamson" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="4"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="4"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="dbd2-1b37-edab-c3b7" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9de5-c9eb-3c8e-4b40" name="Jim Younger" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="bf9b-3cc3-60c1-4e29" name="Jim Younger" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b3e3-9f2f-943a-b86c" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="82f9-ab07-a16c-874f" name="Ike Clanton" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7582-b615-c944-a3e9" name="Ike Clanton" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="571f-ef51-3302-3ad6" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="110.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2167-5515-77b3-42ec" name="Billy &quot;Chef&quot; Clanton" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ac8a-5e87-2c23-8168" name="Billy &quot;Chef&quot; Clanton" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="4"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e807-f786-69b4-0d29" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a91-8ba7-3464-a619" name="John &quot;Boxer&quot; Middleton" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="27f8-7ab5-b0a9-96d3" name="John &quot;Boxer&quot; Middleton" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="3"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5d90-ef1c-4bf1-c11e" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a62-d307-2313-0532" name="John Wesley Hardin" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="a796-19b8-7a62-d54f" name="John Wesley Hardin" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="abc2-f4b0-a974-fdcc" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a8fd-b538-98a2-fe69" name="Robert Younger" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="27c0-04f1-1671-2613" name="Robert Younger" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f924-985e-0dc1-f7c6" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="105.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c4a-bdeb-c43e-b3d3" name="Laura Anderssen" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0034-d056-13c3-eea1" name="Laura Anderssen" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4a3c-57f5-b116-5532" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d86-1b51-559c-d5d1" name="Zarelda Kincade" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8583-dd97-a0a4-0dcf" name="Zarelda Kincade" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0a24-212f-d335-75e3" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b12f-c5b2-7f12-930a" name="Jake Mattia" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="74d2-e4eb-9df4-9277" name="Jake Mattia" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="4"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c6a6-a0f8-02a5-46d3" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b65-cf7c-a0b1-5a78" name="Flowing River" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3689-fc47-3ffc-ad65" name="Flowing River" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="7"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="3"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="7"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="70f0-bca1-838c-422f" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98fb-1412-29f0-8bea" name="Sun Totem" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d354-f1c5-3a56-368c" name="Sun Totem" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="4"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="4"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4ed6-56fd-5795-c835" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="739d-78b8-991e-0975" name="Kay Free" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f535-fc23-de5f-601c" name="Kay Free" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="4"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="4"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5536-0fe1-a795-8b5f" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ea3-b8ea-6e0a-1395" name="Hicks Kincade" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="1d33-6cc4-25b9-e2f0" name="Hicks Kincade" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ef7c-24a4-6f0d-ba31" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dfca-b2b9-ff2d-d797" name="Sierra Icarus" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3306-e5e3-9bcd-7d2c" name="Sierra Icarus" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cbb8-ec5a-14be-ec9e" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="130.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1c19-105b-5971-af96" name="Sasha Tanner" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="17d8-1dd6-94d8-2010" name="Sasha Tanner" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="63bd-96c7-f91a-98ac" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="936f-465f-39fb-c20c" name="Nakano Gozen" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="0578-f96e-56bc-ab45" name="Nakano Gozen" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="7"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="eb1b-21ae-3730-13e3" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="175.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd3f-3a37-31c1-9fdd" name="The Wraith" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8c88-9f2a-a436-c885" name="The Wraith" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="853d-b97e-bd76-7bb3" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2760-90ae-3d64-8035" name="Marcus Cunningham" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="c145-9889-778b-df22" name="Marcus Cunningham" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="3"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f240-5b76-ca1c-d7f2" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="155.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04e6-5076-11e4-2116" name="Thomas Tate Tobin" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="377a-6b86-75a1-86bf" name="Thomas Tate Tobin" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b7da-6ea9-eb7e-e586" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b01-968f-58bb-461c" name="Longtree" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f120-c161-e3cf-aabc" name="Longtree" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="4"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f2c0-1dd6-5094-9f84" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="115.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="affe-020f-e16d-79ee" name="Frank &quot;H-Bot 44&quot; Mclaury" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3dae-f845-3456-af97" name="Frank &quot;H-Bot 44&quot; Mclaury" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f48f-629d-1cad-f78e" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1bd3-6e03-f00f-58c5" name="Jim Petersen" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="b103-5e28-ba38-1b34" name="Jim Petersen" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="7"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="7"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f1c0-c393-599c-4671" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="185.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="985e-7f02-eae0-d3b4" name="Slayn" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="215a-919a-660a-9015" name="Slayn" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="6"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="7"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bbd6-5187-62c4-4858" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="190.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="692c-4202-0245-bea1" name="Jadzia Kosciuszko" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="6a11-1922-13e4-0707" name="Jadzia Kosciuszko" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="7"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="69b0-23ca-d286-913f" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="160.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="01c6-7a78-7a72-28ca" name="Maria Torres-Villa" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="a50b-68f6-32a9-cc6e" name="Maria Torres-Villa" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e7e8-6462-1052-5888" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="150.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d8af-f7e4-c7e4-7178" name="Sofia Antoniela" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="4168-e1ee-5924-6d4f" name="Sofia Antoniela" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f9b4-28d1-b769-70a3" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="125.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2e0-54e4-47e3-a218" name="Procopio" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="75a3-dc49-7f34-31fa" name="Procopio" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6049-688a-b739-7a9d" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1328-57e2-4fc8-2765" name="Heraclio Bernal" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="e517-5bc1-0418-46ee" name="Heraclio Bernal" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="4"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="fa3d-f58d-ac14-ebed" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0f19-8964-6f31-15a2" name="Catalina Romero" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="02e9-3709-7860-8e70" name="Catalina Romero" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="48df-c8dc-abfb-8684" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="145.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -6074,6 +8926,69 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
       <modifiers/>
       <description>Any model in the unit may replace a Ranged Weapon with a weapon from the Special Issue section of their Faction Armoury at the indicated points cost.</description>
     </rule>
+    <rule id="5a48-2e35-94e2-6bae" name="Rabble Rouser" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit&apos;s army may always include an additional Angry Mob Strategic unit for the appropriate points costs</description>
+    </rule>
+    <rule id="61f0-bdf1-60c0-0fb5" name="Portal Mastery" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit has technology or the innate ability to create or collapse portals.  This unit may make a Manipulate Portal Action for free each Activation.</description>
+    </rule>
+    <rule id="6757-c497-214d-16ea" name="Invigorate" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>During this unit&apos;s Activation, spend an Action Point to nominate a friendly uni in Line of sight within 12&quot;.  That nominated unit gains a +1 modifier to their Limit this turn.</description>
+    </rule>
+    <rule id="9c43-af46-baae-4549" name="Compel" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>For two Action Points this unit may select a target unit (friend or foe) within 8&quot;.  That targeted unit must make a Mind Check.  If the Check is passed nothing happens.  If the Check fails, the selected unit is Compelled and must immediately make an Action of this unit&apos;s choice.  The Action counts as a Free Action, cannot be Focused or use fortunte and for the duration of this Action, the Compelled unit coutsd as friendly to this unit.</description>
+    </rule>
+    <rule id="3d29-15dc-ae54-fc6b" name="Fateweaver" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once per turn the unit, when Activated, may spend two Action Points to look at the top three cards from their opponent&apos;s Adventure Deck or their opponent&apos;s Action Deck and shuffle them into any order and replace them on top of that deck.</description>
+    </rule>
+    <rule id="9be6-3303-44f0-823b" name="Creation" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may spend an additional Action Point to double the Piercing value of a single Strike Action. Furthermore, unless hit by a weapon with a Piercing of -4 or greater, the unit may ignore the first point of Piercing from an attack.</description>
+    </rule>
+    <rule id="feb4-a4a8-f38c-94f3" name="Failsafe Detonator" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Should this unit use a weapon with the Suicide quality, it automatically passes any Aim Checks against its Initial Target.</description>
+    </rule>
+    <rule id="144b-880e-fcf1-2b63" name="Spirit Aim" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The unit may choose to use their Mind Attribute in place of their Aim Attribute.  Aim Checks made using the Mind Attribute do not suffer Obscured pentalties (but the target still gains a bonus to their Grit Check as normal).</description>
+    </rule>
+    <rule id="38da-80d1-ed71-4c72" name="Trapper" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit&apos;s army may always include an additional Booby Trap Strategic unit for the appropriate points cost. Furthermore this unit ignores the Triggered Detonation rule.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1fc9-2269-145e-db89" name="Iron Asp Baton" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
@@ -6464,6 +9379,58 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
         <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="2"/>
         <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1"/>
         <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="5850-3477-8fa7-6e1a" name="Mousegun" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="8&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Close Work "/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Lethal"/>
+      </characteristics>
+    </profile>
+    <profile id="af81-c2b0-890f-2b13" name="Failsafe Implant" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="Self"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-1"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Suicide, Shred, Blast"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d"/>
+      </characteristics>
+    </profile>
+    <profile id="33a3-4cda-d57c-ecc5" name="Tomahawk" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="-"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-1"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Thrown"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Decapitate"/>
+      </characteristics>
+    </profile>
+    <profile id="c68e-15fe-0692-307c" name="Spirit Bow" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="15&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-1"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Attuned"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Decapitate"/>
       </characteristics>
     </profile>
   </sharedProfiles>
