@@ -8642,6 +8642,224 @@
         <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="115.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8841-09a5-68e8-9333" name="Ricardo Fortuna" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="77ed-00e4-8a3f-6f23" name="Ricardo Fortuna" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="7"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="141a-a51e-300e-0c2c" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd5f-2e75-6695-440f" name="Patricia Monaguillo" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3d73-6fe1-34ca-0bba" name="Patricia Monaguillo" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="7"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2a7f-715a-2b04-f3f4" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c712-d6bb-0fbf-27d5" name="Eduard Costa" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="9009-6710-a32c-c0b4" name="Eduard Costa" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="7"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7f24-888a-e039-32bc" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="140.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf0e-4a86-8383-4a63" name="Esteban El Bruto" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="9e88-d0c4-c584-675e" name="Esteban El Bruto" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="8edd-0244-8e04-3972" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5080-a32f-8853-c742" name="Juan Nuevopuerto" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="39a0-0357-bb08-28aa" name="Juan Nuevopuerto" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="4"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0cf7-538b-3bac-2b83" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="145.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95ae-bd65-daa4-8f16" name="Ines Suarez" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="cfbe-6359-a4e1-9a1e" name="Ines Suarez" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
