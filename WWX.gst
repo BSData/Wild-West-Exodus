@@ -463,6 +463,13 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="5292-b55d-8a2d-b866" name="Cerulean" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="3391-126b-07ef-4b56" name="Boss" hidden="false">
