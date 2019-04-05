@@ -4,7 +4,7 @@
   <rules/>
   <infoLinks/>
   <costTypes>
-    <costType id="c31b-12c2-3f65-9d8f" name="Points" defaultCostLimit="0.0"/>
+    <costType id="c31b-12c2-3f65-9d8f" name=" Points" defaultCostLimit="0.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="ca94a085-38f7-7c33-2d74-8ba3078641e0" name="Model/Unit">
@@ -435,6 +435,27 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="0eaf-5a90-46b6-0197" name="Sergeant" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="808d-6a20-17e8-a992" name="Interceptor" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="32f8-35f8-1a76-8b60" name="Celestian" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="3391-126b-07ef-4b56" name="Boss" hidden="false">
@@ -539,7 +560,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d35-1b50-feae-24f5" name="Civilians" hidden="false" collective="false" type="unit">
@@ -600,14 +621,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d32c-0847-3fab-bd2d" name="Angry Mob" hidden="false" collective="false" type="unit">
@@ -647,14 +668,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d361-1904-1174-c1a0" name="Wayland the Smith (Legendary)" hidden="false" collective="false" type="model">
@@ -699,7 +720,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="150.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="150.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a7f-4fbf-c7cf-30aa" name="Panday Beck" hidden="false" collective="false" type="model">
@@ -737,7 +758,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="100.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="100.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -767,7 +788,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="15.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4c88-be7f-6cec-077d" name="Flamethrower" hidden="false" collective="false" type="upgrade">
@@ -806,14 +827,14 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="15.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4717-33dd-42da-c7a3" name="Grenade Launcher" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="5af4-fe51-ac43-afb4" name="Grenade Launcher" hidden="false" targetId="ebed-199d-308a-0af8" type="profile">
+        <infoLink id="5af4-fe51-ac43-afb4" name="Grenade Launchers" hidden="false" targetId="9edb-58fa-3c14-238e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -851,7 +872,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="15.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="253d-2785-0338-ca59" name="Heavy Slugger" hidden="false" collective="false" type="upgrade">
@@ -896,7 +917,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d04c-2e74-cb8d-85b1" name="Juiced Gatling Gun" hidden="false" collective="false" type="upgrade">
@@ -941,7 +962,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="24c8-f685-8516-a1d1" name="Juiced Shotgun" hidden="false" collective="false" type="upgrade">
@@ -974,7 +995,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66c9-d459-8ef5-8763" name="Juiced Sniper Rifle" hidden="false" collective="false" type="upgrade">
@@ -1007,7 +1028,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="15.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a762-f589-10f4-61f1" name="Ketchum Grenade" hidden="false" collective="false" type="upgrade">
@@ -1046,7 +1067,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="10.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3745-d923-4d2c-95e7" name="Thermite Grenades" hidden="false" collective="false" type="upgrade">
@@ -1091,7 +1112,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="25.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea72-c981-5339-d0c1" name="Pistol" hidden="false" collective="false" type="upgrade">
@@ -1127,7 +1148,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0034-5d54-d2de-75f5" name="Pistols" hidden="false" collective="false" type="upgrade">
@@ -1163,7 +1184,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f620-2edf-ebb0-3625" name="Rifle" hidden="false" collective="false" type="upgrade">
@@ -1187,7 +1208,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1be1-4076-3e3f-ed73" name="Basic Melee Weapon" hidden="false" collective="false" type="upgrade">
@@ -1211,7 +1232,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="93be-ca94-2283-9f49" name="Juiced Pistols" hidden="false" collective="false" type="upgrade">
@@ -1253,7 +1274,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3887-ea9b-0345-a78b" name="Juiced Rifle" hidden="false" collective="false" type="upgrade">
@@ -1283,7 +1304,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="79c0-1e2e-19d1-2754" name="Juiced Pistol" hidden="false" collective="false" type="upgrade">
@@ -1325,7 +1346,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb35-9db7-a359-02fc" name="Steel Jaws" hidden="false" collective="false" type="upgrade">
@@ -1349,7 +1370,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9316-3f71-eec0-ae15" name="Flamethrower (included)" hidden="false" collective="false" type="upgrade">
@@ -1388,7 +1409,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="22a2-78ed-f99b-0392" name="Hammerhand" hidden="false" collective="false" type="upgrade">
@@ -1424,7 +1445,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="404d-7261-e55a-ac16" name="Mousegun" hidden="false" collective="false" type="upgrade">
@@ -1460,7 +1481,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d9d2-d025-aac1-9562" name="Golden Pistol" hidden="false" collective="false" type="upgrade">
@@ -1510,7 +1531,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1960-9400-ec55-cdf7" name="Hammerhands" hidden="false" collective="false" type="upgrade">
@@ -1546,7 +1567,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e8a0-822c-b39e-a89f" name="Failsafe Implant" hidden="false" collective="false" type="upgrade">
@@ -1571,24 +1592,24 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="da24-f067-82f9-38f3" name="Failsafe Implant" hidden="false" targetId="e8a0-822c-b39e-a89f" type="selectionEntry">
+        <infoLink id="484b-4b8c-5f96-c716" name="Failsafe Implant" hidden="false" targetId="af81-c2b0-890f-2b13" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="542e-1cdc-6956-ea97" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="037d-53f8-48b4-fc22" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3cde-eeba-939e-dc2c" name="Tomahawk" hidden="false" collective="false" type="upgrade">
@@ -1624,7 +1645,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2cc5-63e2-4e4b-18ca" name="Spirit Bow" hidden="false" collective="false" type="upgrade">
@@ -1660,46 +1681,539 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fd3f-3a37-31c1-9fdd" name="The Wraith" hidden="false" collective="false" type="unit">
-      <profiles>
-        <profile id="8c88-9f2a-a436-c885" name="The Wraith" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+    <selectionEntry id="a15a-0f9a-92dc-d3c8" name="Juiced Hyper-Volley Guns" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7196-475c-b397-8e33" name="Juiced Hyper-Volley Guns" hidden="false" targetId="56ae-f198-ce53-9b4e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <characteristics>
-            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
-            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="5"/>
-            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
-            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
-            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
-            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
-            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
+        </infoLink>
+        <infoLink id="d05b-87c9-3108-14b0" name="Linked" hidden="false" targetId="4664-50dc-7c1d-8686" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f6bd-79b9-2f4c-1b7c" name="Shred" hidden="false" targetId="368d-afd0-7f3f-5d2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c6fb-ac73-1e7f-05a7" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks>
-        <categoryLink id="853d-b97e-bd76-7bb3" name="New CategoryLink" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="160.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="a4fd-f35f-b742-577e" name="Gatling Guns" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3f0a-1461-3474-c415" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="051b-cdf4-a348-bf79" name="Heavy" hidden="false" targetId="dc92-252b-b1ca-4abe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5143-e1b3-3ab7-8f68" name="Linked" hidden="false" targetId="4664-50dc-7c1d-8686" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4808-fceb-9b12-c4b6" name="Gatling Guns" hidden="false" targetId="0281-f715-0357-8272" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b77-c43e-0e12-7075" name="Electrocarbines (Free)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0f86-4df7-9542-d1c4" name="Electrocarbines" hidden="false" targetId="8aae-09df-fc21-302f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="01d6-61f9-df98-b430" name="Stun" hidden="false" targetId="10f1-667b-26a8-4de4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ed9-0cfc-dce8-5a9b" name="Flamethrowers" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ab92-4557-1aa8-aae4" name="Flamethrowers" hidden="false" targetId="4bc2-142f-be53-ff7c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a216-0ef0-f4b7-7304" name="Engulf" hidden="false" targetId="6ad3-c6e7-3577-2a4a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bfd4-2010-c1b9-1830" name="Hazardous" hidden="false" targetId="7125-098f-0f6e-6065" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e6b7-9241-8c50-b104" name="Torrent" hidden="false" targetId="0893-023f-221e-0baa" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b41f-6063-f79f-a22e" name="Grenade Launchers" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e62e-c4a3-0dda-09ee" name="Grenade Launcher" hidden="false" targetId="ebed-199d-308a-0af8" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="31da-6838-a56f-15af" name="Blast" hidden="false" targetId="d400-6ae5-653f-5c4e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="579e-9247-cc15-826b" name="Indirect" hidden="false" targetId="dc1e-e0fa-404f-3bd8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="dc07-bdd4-c901-21aa" name="Heavy" hidden="false" targetId="dc92-252b-b1ca-4abe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="27fc-c235-257d-7d8a" name="Shred" hidden="false" targetId="368d-afd0-7f3f-5d2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b9a8-f486-b71c-d71f" name="Winch Lasso" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5dcd-28e7-9208-415f" name="Winch Lasso" hidden="false" targetId="286c-6131-ad5f-2598" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f80c-c6b5-2f34-7542" name="Tangle" hidden="false" targetId="dab9-90c8-e193-3a4d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e6a0-b3bd-bb1b-4086" name="Heavy" hidden="false" targetId="dc92-252b-b1ca-4abe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9de9-2f6e-d5e6-55be" name="Blast" hidden="false" targetId="d400-6ae5-653f-5c4e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2add-7223-c24e-5bbf" name="Drag" hidden="false" targetId="64df-83d5-514d-99d4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="edbc-ed31-a519-378a" name="Flechette Blasters" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6a16-8032-bfcf-2a85" name="Flechette Blasters" hidden="false" targetId="6171-5d55-b16a-8c3d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="aea5-478e-cfbb-b5cb" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e0b6-a373-c4fd-8dee" name="Linked" hidden="false" targetId="4664-50dc-7c1d-8686" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="405e-b758-d887-232d" name="Shred" hidden="false" targetId="368d-afd0-7f3f-5d2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="edee-1572-3fbd-ef17" name="Blazer Gatling Fusillades" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fc09-718f-0e75-7ee1" name="Blazer Gatling Fusillades" hidden="false" targetId="e505-ad10-2fbb-e721" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9c2c-cd97-73a1-09f2" name="Linked" hidden="false" targetId="4664-50dc-7c1d-8686" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c879-6ada-4af8-1128" name="Heavy" hidden="false" targetId="dc92-252b-b1ca-4abe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="781e-84d6-6ebf-f72c" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3612-c919-ee77-7014" name="Hazardous" hidden="false" targetId="7125-098f-0f6e-6065" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="d3c3-88f8-741b-711c" name="Juiced Gatling Guns" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5e6b-dbff-6796-713d" name="Juiced Gatling Guns" hidden="false" targetId="c85a-f457-c996-3755" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b094-aec3-08ba-617c" name="Heavy" hidden="false" targetId="dc92-252b-b1ca-4abe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0442-1df4-9d1f-3cbc" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d1cc-515c-7495-222a" name="Linked" hidden="false" targetId="4664-50dc-7c1d-8686" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7931-7e1c-6a29-5cef" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="1072-74cf-e5af-eddf" name="Juiced Sabre" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c58c-a80a-594f-e087" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7645-b5ba-4d98-8e3e" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8862-ff19-3da1-be61" name="Juiced Sabre" hidden="false" targetId="5f3f-c229-e2bd-3db8" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="7a47-279f-d98a-f15f" name="Juiced Axe" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="68b8-b1ac-bb0f-dd5b" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9706-e62a-7dbc-c3dd" name="Decapitate" hidden="false" targetId="bf1b-a623-0d35-4b78" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="3c38-b01d-0a18-37d7" name="Juiced Axe" hidden="false" targetId="c4ed-9b09-38d5-ac50" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9b00-f822-01cf-ddcf" name="Razor Claws" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8f51-4ebe-a016-290b" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1808-7c7e-54df-e952" name="Razor Claws" hidden="false" targetId="d00d-3bad-7ca1-2cca" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d586-39aa-6bcc-8adb" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00bc-d3bd-40c5-f7ff" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="9fcf-847b-6beb-055d" name="Bionic Arms" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0a5e-0967-00d8-c26b" name="Bionic Arms" hidden="false" targetId="3fbf-c72e-5994-177f" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ab88-930e-7e9f-c2cb" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3153-9bc7-eadd-b68e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f3f-df74-8911-c355" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d11b-68fd-9320-a878" name="Atomic Pistols" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a8b8-d74e-b607-a382" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5803-a55c-e8e3-4f0b" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a01-083c-2c38-a0ef" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="043f-ea8a-2c63-ba2a" name="Throwing Knives" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f7cd-b740-0c53-47b1" name="Throwing Knives" hidden="false" targetId="0dd8-738c-b543-3f37" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="34d9-e6ec-cb95-0073" name="Thrown" hidden="false" targetId="7b3e-d5d1-27dd-26d4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
@@ -2390,6 +2904,62 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
       <modifiers/>
       <description>This unit&apos;s army may always include an additional Booby Trap Strategic unit for the appropriate points cost. Furthermore this unit ignores the Triggered Detonation rule.</description>
     </rule>
+    <rule id="b0a1-e4ed-7b3a-b7ed" name="Mutual Destruction" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When this model is destroyed, centre a Blast Template on this model before removing it from the Play Area.  All models touched by the template, friend or foe, suffer a Piercing -1 hit with the Hazardous Special Rule.</description>
+    </rule>
+    <rule id="ae30-9dd2-e4de-e179" name="Controlled Scatter" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The unit may determine the direction of any scatter in any Action they make.</description>
+    </rule>
+    <rule id="6283-1e04-408c-547b" name="Inexperienced" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each time the unit becomes Disordered one model in the unit suffers an automatic Wound.</description>
+    </rule>
+    <rule id="1c32-6d5b-d678-6fde" name="Volatile" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If this model is wounded it is remove and a Blast template is centred on their former position. All models under the template are hit automatically with a Piercing -1.</description>
+    </rule>
+    <rule id="3e06-7c3f-dc15-9ef1" name="Experienced Unit" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model in the unit may replace a Ranged Weapon with a weapon from the Special Issue section of their Faction Armoury at the indicated points cost.  If the unit is at maximum unit size, a second model may then replace a Ranged Weapon with a weapon from the Special Issue section of their Faction Armoury at the indicated points cost. </description>
+    </rule>
+    <rule id="837f-1d19-79e6-0915" name="Forceful Strike" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Once during its Activation, this unit may spend 1 Action Point to double the Piercing value of a single Strike Action to a maximum of -6.</description>
+    </rule>
+    <rule id="323f-8846-7a2e-5246" name="Frenzy" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>For each Critical Success this model rolls during a Fight Check, this model may make a Free Strike Action.  This Free Strike Action is still subject to Frenzy.</description>
+    </rule>
+    <rule id="ed85-d84d-0901-4e97" name="Loyal Companion" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may only make Combat Actions with weapons with the Special quality if it is within 4&quot; of the Boss of the Posse.  Furthermore, while this unit is within 4&quot; of the Boss of the Posse, should that Boss be nominated as the Initial Target of an attack, this unit instead becomes the Initial Target of the attack as they dive in front of the bullet, or push their master aside at the last minute, nombly sacrificing themselves in the process.  Calculate range, Line of Sight and cover bonuses etc to the Boss but resolve the Grit Check on this unit instead.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1fc9-2269-145e-db89" name="Iron Asp Baton" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
@@ -2832,6 +3402,188 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
         <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
         <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Attuned"/>
         <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Decapitate"/>
+      </characteristics>
+    </profile>
+    <profile id="56ae-f198-ce53-9b4e" name="Juiced Hyper-Volley Guns" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="20&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-3"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="2"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Shred, Linked"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Overcharged"/>
+      </characteristics>
+    </profile>
+    <profile id="0281-f715-0357-8272" name="Gatling Guns" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="15&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="4"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Heavy, Brutal, Linked"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value=""/>
+      </characteristics>
+    </profile>
+    <profile id="8aae-09df-fc21-302f" name="Electrocarbines" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="15&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="3"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value=""/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Stun"/>
+      </characteristics>
+    </profile>
+    <profile id="9edb-58fa-3c14-238e" name="Grenade Launchers" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="12&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="2"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Blast, Indirect, Heavy"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Shred"/>
+      </characteristics>
+    </profile>
+    <profile id="4bc2-142f-be53-ff7c" name="Flamethrowers" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="-"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="2"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Hazardous, Torrent, Engulf"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="286c-6131-ad5f-2598" name="Winch Lasso" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="15&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-1"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Tangle, Heavy, Blast"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Drag"/>
+      </characteristics>
+    </profile>
+    <profile id="6171-5d55-b16a-8c3d" name="Flechette Blasters" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="10&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-1"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="4"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Close Work, Linked"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Shred"/>
+      </characteristics>
+    </profile>
+    <profile id="e505-ad10-2fbb-e721" name="Blazer Gatling Fusillades" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="15&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="6"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Linked, Heavy, Brutal"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Hazardous"/>
+      </characteristics>
+    </profile>
+    <profile id="c85a-f457-c996-3755" name="Juiced Gatling Guns" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="15&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="4"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Heavy, Brutal, Linked"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Overcharged"/>
+      </characteristics>
+    </profile>
+    <profile id="5f3f-c229-e2bd-3db8" name="Juiced Sabre" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="1&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Parry"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Overcharged"/>
+      </characteristics>
+    </profile>
+    <profile id="c4ed-9b09-38d5-ac50" name="Juiced Axe" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-3"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Overcharged"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Decapitate"/>
+      </characteristics>
+    </profile>
+    <profile id="d00d-3bad-7ca1-2cca" name="Razor Claws" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="-"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="3"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value=""/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Lethal"/>
+      </characteristics>
+    </profile>
+    <profile id="f569-8bc0-39a1-7230" name="Atomic Pistols" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="10&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="2"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Revolver Fan, Close Work"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Lethal"/>
+      </characteristics>
+    </profile>
+    <profile id="0dd8-738c-b543-3f37" name="Throwing Knives" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="-"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-1"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="3"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d"/>
       </characteristics>
     </profile>
   </sharedProfiles>
