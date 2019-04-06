@@ -1914,7 +1914,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="edbc-ed31-a519-378a" name="Flechette Blasters" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1951,7 +1953,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="edee-1572-3fbd-ef17" name="Blazer Gatling Fusillades" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -1994,7 +1998,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d3c3-88f8-741b-711c" name="Juiced Gatling Guns" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2037,7 +2043,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1072-74cf-e5af-eddf" name="Juiced Sabre" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2068,7 +2076,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7a47-279f-d98a-f15f" name="Juiced Axe" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2099,7 +2109,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9b00-f822-01cf-ddcf" name="Razor Claws" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2127,7 +2139,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9fcf-847b-6beb-055d" name="Bionic Arms" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2188,7 +2202,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="043f-ea8a-2c63-ba2a" name="Throwing Knives" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2213,7 +2229,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
@@ -2959,6 +2977,13 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
       <infoLinks/>
       <modifiers/>
       <description>This unit may only make Combat Actions with weapons with the Special quality if it is within 4&quot; of the Boss of the Posse.  Furthermore, while this unit is within 4&quot; of the Boss of the Posse, should that Boss be nominated as the Initial Target of an attack, this unit instead becomes the Initial Target of the attack as they dive in front of the bullet, or push their master aside at the last minute, nombly sacrificing themselves in the process.  Calculate range, Line of Sight and cover bonuses etc to the Boss but resolve the Grit Check on this unit instead.</description>
+    </rule>
+    <rule id="bada-42d6-efe6-8b12" name="Underboss" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may replace its FACE Trait for a BOSS Trait for +45 points.  It not logner counts as a Face unit and gains +1 Fortune and the Largesse Common Rule.  As a Boss it may take a Faction Posse as normal.  If a Theme Posse is available for it, then this unit may take its Theme Posse instead.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
