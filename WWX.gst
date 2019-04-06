@@ -3012,6 +3012,13 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
       <modifiers/>
       <description>For one Action point this unit may select a friendly unit in Line of Sight and within 12&quot;. The selected unit immediately regains d5 Fortune Chips up to its starting value.</description>
     </rule>
+    <rule id="7136-825f-f623-137a" name="Underboss" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit may replace its FACE Trait for a BOSS Trait for +45 points.  It not logner counts as a Face unit and gains +1 Fortune and the Largesse Common Rule.  As a Boss it may take a Faction Posse as normal.  If a Theme Posse is available for it, then this unit may take its Theme Posse instead.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1fc9-2269-145e-db89" name="Iron Asp Baton" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
