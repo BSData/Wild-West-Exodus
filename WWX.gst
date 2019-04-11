@@ -477,6 +477,41 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="c61d-0ffc-7e1f-c099" name="Major" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="ddcb-f9db-5286-d72a" name="Corporal" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="9d9d-8ad0-15ef-0a1d" name="Commonwealth" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="808c-3703-e477-d12c" name="Specialist" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="691e-e642-673e-63c3" name="Treadbike" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="3391-126b-07ef-4b56" name="Boss" hidden="false">
@@ -2863,6 +2898,172 @@
         <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="590b-50a9-c45d-a516" name="Filleting Blade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6473-0667-9fc3-d15d" name="Filleting Blade" hidden="false" targetId="135f-346d-580d-c701" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="7d33-6309-324f-c458" name="Lasso" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9ed7-6f1e-212e-42bf" name="Lasso" hidden="false" targetId="edb9-f229-8949-fcc7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9f5c-0936-9cd3-d619" name="Tangle" hidden="false" targetId="dab9-90c8-e193-3a4d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="43de-23d0-b3a2-a272" name="Drag" hidden="false" targetId="64df-83d5-514d-99d4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="8745-0049-3560-1912" name="Atomic Pistol" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5ef8-19c6-108e-dae3" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a400-b9a9-80d3-0d57" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5080-9184-38bb-82b8" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7956-95ac-f8c6-f696" name="Atomic Pistol" hidden="false" targetId="1dd3-2349-e6e3-a65d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6b2a-5010-2631-226f" name="Hyper-V Pistols" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="039a-2045-3d92-ce43" name="Hyper-V Pistols" hidden="false" targetId="dbba-aae5-5d14-b516" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="59cb-8414-864a-f3c5" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2486-175f-4139-f05a" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d3b-11d5-d2f7-0ddc" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="119c-f7c1-abd1-592b" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="de7b-3a23-9b8d-ef9d" name="Espada De Vida" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d963-0667-fe99-3459" name="Espada De Vida" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="1&quot;"/>
+            <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-1"/>
+            <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+            <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Parry"/>
+            <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Decapitate"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0569-ee2d-d781-2edd" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b812-f7e9-0858-6bb4" name="Decapitate" hidden="false" targetId="bf1b-a623-0d35-4b78" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
@@ -3678,6 +3879,27 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
       <modifiers/>
       <description>This unit ignores negative Piercing modifiers when taking Grit Checks.</description>
     </rule>
+    <rule id="9f9f-92fa-e5c0-3615" name="Dispersed Deployment" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit cannot be placed into Reserve.  After standard deployment, but before any Trailfinder units have deployed, starting with Player B, each player must take it in turns to place a unit with the Dispersed Deployment rule onto the Play Area.  Units must be placed at least 6&quot; apart from another unit and 6&quot; away from any edge of the Play Area and must be placed outside of the deployment zones.</description>
+    </rule>
+    <rule id="8bef-5ce7-9f28-be68" name="Kill Shot" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Human Inital Targets must re-roll successful Grit checks again Shoot Actions from this model.</description>
+    </rule>
+    <rule id="d1fe-9697-faf1-2681" name="Bunker" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>After activation, provided this model does not make a Move Action, it gains _2 Grit for the remainder of the turn.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="1fc9-2269-145e-db89" name="Iron Asp Baton" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
@@ -4471,6 +4693,45 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
         <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
         <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Revolver Fan, Close Work"/>
         <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d"/>
+      </characteristics>
+    </profile>
+    <profile id="135f-346d-580d-c701" name="Filleting Blade" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="-"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-1"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value=""/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d"/>
+      </characteristics>
+    </profile>
+    <profile id="edb9-f229-8949-fcc7" name="Lasso" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="6&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value=""/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Tangle"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Drag"/>
+      </characteristics>
+    </profile>
+    <profile id="1dd3-2349-e6e3-a65d" name="Atomic Pistol" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="10&quot;"/>
+        <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+        <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+        <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Revolver Fan, Close Work"/>
+        <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Lethal"/>
       </characteristics>
     </profile>
   </sharedProfiles>
