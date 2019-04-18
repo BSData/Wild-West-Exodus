@@ -20885,6 +20885,430 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="d0c3-1e8e-f7b0-ca1a" name="Wayward Eight Units" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c77f-6ce9-ca65-afe6" name="Zarelda Kincade" hidden="false" targetId="59fc-9f99-31b0-e7c8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4759-7f99-bca2-1715" name="Hicks Kincade" hidden="false" targetId="1f06-115b-7ad1-531a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="048a-5ae2-3812-d9b3" name="Jake Mattia" hidden="false" targetId="3958-bf3e-4917-0a4b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a194-7cae-2b76-f6f5" name="Flowing River" hidden="false" targetId="3b44-54a0-8e71-3572" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="091a-6cf3-665f-6a51" name="Sun Totem" hidden="false" targetId="8e58-11ff-50a7-20b6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8388-6ade-7b14-78b7" name="Sierra Icarus" hidden="false" targetId="f015-73ba-610b-db2d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9e61-5f1d-ae12-da0d" name="Kay Free" hidden="false" targetId="828a-1c10-8d94-0c73" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="147b-d096-be99-0635" name="Black Blood" hidden="false" targetId="e146-06de-56f1-034c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="545d-5b3f-c365-5404" name="Earle Shepherd" hidden="false" targetId="1214-79f1-d9dd-4d57" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="57a4-0abb-971a-6212" name="Regulators Faces" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="82dd-d263-1a7f-cd2b" name="The Apache Kid" hidden="false" targetId="312b-5e95-38a8-d0d0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8eae-3ae0-43b9-9682" name="Sadie Walker" hidden="false" targetId="17b3-d7c2-491f-c931" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ba5d-b792-5698-0f36" name="Jake Williamson" hidden="false" targetId="1de8-ac7e-b028-65b4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8733-8459-83e3-e6b9" name="John &quot;Boxer&quot; Middleton" hidden="false" targetId="412a-9868-4767-0dcf" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dfd1-63d9-c3d7-0828" name="Jake Mattia" hidden="false" targetId="3958-bf3e-4917-0a4b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="2a3d-ad9b-8c33-8c5a" name="Sasha Tanner" hidden="false" targetId="b6f8-3546-f672-1be3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="8b97-a14a-1770-df1a" name="Laura Anderssen" hidden="false" targetId="0410-aed2-9eb1-048a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7244-b74a-6c46-681b" name="Jim Petersen" hidden="false" targetId="82ef-84df-adee-a9a8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b413-244e-f47e-aad4" name="Cowboys Faces" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6e98-bf72-1242-c033" name="Misty Mimms" hidden="false" targetId="afc1-06e3-b463-a754" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d76d-33f8-7232-6a76" name="Bill Brocius" hidden="false" targetId="04dd-6023-dc5a-1281" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="414e-e482-d9a8-5b98" name="Alan Knox" hidden="false" targetId="cd45-e495-eac4-048c" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dde5-a942-3ac7-7310" name="Ike Clanton" hidden="false" targetId="3d41-814e-c31c-47f3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3926-b99a-47a5-6925" name="Billy &quot;Chef&quot; Clanton" hidden="false" targetId="57c9-d0ba-a2f3-a585" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0888-66e1-8482-4b24" name="Frank &quot;H-Bot 44&quot; Mclaury" hidden="false" targetId="a134-9397-0eaf-4639" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2a6e-dd23-f99d-add1" name="Confederate Faces" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6e0e-f50a-05cc-bed7" name="Frank James" hidden="false" targetId="aa0e-723f-8b93-46ad" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c1d6-09e9-b7b0-a4d5" name="Jim Younger" hidden="false" targetId="67a1-b846-01a2-48dc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c8cc-3859-9476-eb3c" name="Cole Younger" hidden="false" targetId="1a8a-1d60-bf08-be24" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f90b-30ef-85ce-6fc8" name="John Wesley Hardin" hidden="false" targetId="518b-d0dd-3494-1f9e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="905c-991b-8dd0-4c4d" name="Jake Mattia" hidden="false" targetId="3958-bf3e-4917-0a4b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6cdd-1ceb-61ac-894f" name="The Wraith" hidden="false" targetId="6845-781f-716b-878e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d4e4-f3ce-5364-2a61" name="Hicks Kincade" hidden="false" targetId="1f06-115b-7ad1-531a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="bae2-9cd4-b4f2-1ce6" name="Slayn" hidden="false" targetId="2614-c2d2-9f6b-c5f7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3e80-28a1-537c-5fb0" name="Bloody Bill Anderssen" hidden="false" targetId="48c8-def2-f23e-9d81" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="6625-4db5-ce23-3ba9" name="Buford Nash" hidden="false" targetId="2bda-166f-9991-373a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ad77-f8d5-a0ae-f516" name="Ben Hamilton" hidden="false" targetId="6399-b9c4-9111-02df" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="90b6-a084-c0ef-1160" name="Belle Wilson" hidden="false" targetId="61c4-81ae-c9f5-8c87" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ff5f-fe1b-6a78-9c7b" name="Ross Mackeye" hidden="false" targetId="66d2-f85c-5b62-b237" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b576-8803-e786-9ade" name="Wendell Lee" hidden="false" targetId="54c6-dfc7-c243-14a5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9b67-118f-74ce-1964" name="Tobias Franklyn" hidden="false" targetId="b461-ef41-8cf4-09d9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e798-824c-98db-c5ab" name="Jefford Williams" hidden="false" targetId="01a5-1724-df9b-2f8d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="d5d0-f56f-2741-dea3" name="Thomas Russell" hidden="false" targetId="c129-bc85-0c06-295f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cb99-634f-ce0f-3279" name="Nautilus Faces" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0d7c-2222-6fba-86d4" name="Broad Arrow Jack" hidden="false" targetId="2f08-7495-8fd9-336b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6b00-2a18-98c5-b1f5" name="Quantrill&apos;s Raiders" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1958-7d74-d3f7-4518" name="Frank James" hidden="false" targetId="aa0e-723f-8b93-46ad" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="7fb2-9465-eb72-52b9" name="Jim Younger" hidden="false" targetId="67a1-b846-01a2-48dc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="352d-cd01-ca3d-bc8d" name="Cole Younger" hidden="false" targetId="1a8a-1d60-bf08-be24" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules/>
   <sharedProfiles/>
