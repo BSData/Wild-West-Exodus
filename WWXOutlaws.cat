@@ -167,20 +167,6 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
-    <categoryEntry id="f4aa-d73e-c650-83a3" name="Dixie Resurrection Posse" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
-    <categoryEntry id="2231-0cd4-5e28-a1f0" name="Annabelle Hamilton" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </categoryEntry>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="e109-f3e5-16da-6c51" name="Outlaw Faction Posse" hidden="false">
@@ -612,37 +598,6 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
           </constraints>
         </categoryLink>
         <categoryLink id="2d73-dbd8-1f41-2c28" name="Raiders from the Nautilus Posse" hidden="false" targetId="6066-bf8b-c355-66d4" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="41d5-f153-a03d-fadb" name="Dixie Resurrection Theme Posse" hidden="false">
-      <profiles/>
-      <rules>
-        <rule id="b68d-5e10-eda2-96c8" name="Dixie Resurrection Theme Posse" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </rule>
-      </rules>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <forceEntries/>
-      <categoryLinks>
-        <categoryLink id="cc42-9c7c-b59e-f879" name="Annabelle Hamilton" hidden="false" targetId="2231-0cd4-5e28-a1f0" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="64ce-669d-2f61-3a0e" name="Dixie Resurrection Posse" hidden="false" targetId="f4aa-d73e-c650-83a3" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
