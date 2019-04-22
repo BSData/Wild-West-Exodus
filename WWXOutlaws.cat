@@ -325,7 +325,10 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="288c-b90d-b5f0-20b6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d40-a424-34e6-ca6f" type="max"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="e97f-4bfc-0ce3-7145" name="The Golden Army Posse" hidden="false" targetId="bcbb-1e27-404c-5cd5" primary="false">
           <profiles/>
@@ -356,7 +359,10 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc03-4288-0e1d-1cf6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a11-73f4-98f4-3e2c" type="max"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="d657-0ecc-3cc7-77f5" name="The Conquistadores Posse" hidden="false" targetId="c94d-3154-ae20-cef5" primary="false">
           <profiles/>
@@ -387,7 +393,10 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d04-2d1b-63e6-5acd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b94a-18d3-7207-a62a" type="max"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="7848-89e9-4c77-3552" name="The Faithful of Castilla Posse" hidden="false" targetId="6647-39ee-b6f1-4a1d" primary="false">
           <profiles/>
@@ -418,7 +427,10 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e44-7b78-0b72-3c0b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8e2-e870-d8ea-0f22" type="max"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="c30b-38ac-e36b-1fd2" name="The Wayward Eight Posse" hidden="false" targetId="57eb-44e0-655b-644f" primary="false">
           <profiles/>
@@ -437,6 +449,7 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <description>In an OUTLAWS/ENLIGHTENED/HEX Force, instead of a Faction Posse, William Quantrill may take this Theme Posse.  If all six slots are filled with at least one unit, when making a Charge, any unit in the Posse gains the Stone Cold Killer Special Rule for their Free Strike Action. William Quantrill is the only unit with the BOSS Trait permitted in this Posse</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -449,7 +462,10 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d5e-97a3-3218-b912" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f94c-fde7-b152-758f" type="min"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="837e-a425-413c-3897" name="Quantrill&apos;s Raiders Posse" hidden="false" targetId="a5f4-35aa-0333-eeea" primary="false">
           <profiles/>
@@ -480,7 +496,10 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f8-bd07-f459-918b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27fb-52d4-4881-6fb2" type="max"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="5905-ccda-ab3c-484c" name="The Regulators Posse" hidden="false" targetId="2dee-25c0-c934-31bf" primary="false">
           <profiles/>
@@ -499,6 +518,7 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <description>In an OUTLAWS/ENLIGHTENED/HEX Force, instead of a Faction Posse, Johnny Ringo may take this Theme Posse.  If all six slots in the Posse contain at least one unit in them, Johnny Ringo and all Hands and Faces in the Posse gain the Shoulder to Shoulder rule. Johnny Ringo is the only unit with the BOSS Trait permitted in this Posse.v1.08</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -511,7 +531,10 @@ If all six slots in the Posse contain at least one unit in each, then all Inexpe
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4b9-1611-8521-ca33" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6276-882e-cff1-ecb1" type="max"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="4331-7463-2798-0682" name="The Cowboys Posse" hidden="false" targetId="1eac-201e-49a2-8416" primary="false">
           <profiles/>
@@ -567,6 +590,7 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <description>In an OUTLAWS Force, instead of a Faction Posse, Rani Nimue may take this Theme Posse.  Rani Nimue is the only unit with the BOSS Trait permitted in this Posse.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -579,7 +603,10 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="460a-b586-d092-2b76" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6099-2d56-5006-4975" type="min"/>
+          </constraints>
         </categoryLink>
         <categoryLink id="2d73-dbd8-1f41-2c28" name="Raiders from the Nautilus Posse" hidden="false" targetId="6066-bf8b-c355-66d4" primary="false">
           <profiles/>
@@ -1644,309 +1671,6 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
         <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="260.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c31b-75a3-1326-054e" name="Rani Nimue" hidden="false" collective="false" type="unit">
-      <profiles>
-        <profile id="6e3f-30de-bc9c-7f89" name="Rani Nimue" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
-            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
-            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="4"/>
-            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
-            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="7"/>
-            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
-            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="4"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="3108-a807-75b6-0cf5" name="Unique" hidden="false" targetId="0c90-44c9-d012-1bea" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="671d-b52f-ed85-ba5f" name="Unit" hidden="false" targetId="fad2-1e3c-17dd-ea53" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8454-a649-b5ea-f855" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="0fe5-ec5f-fcf4-ded6" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d35f-f94c-9951-02ae" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9ec4-2ccc-179b-c4e1" name="Prodigious" hidden="false" targetId="a2bb-4b7f-7a00-558b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8483-0c70-ed76-1d8a" name="Elite" hidden="false" targetId="b209-b387-3956-8458" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3546-b840-c984-ba08" name="Largesse" hidden="false" targetId="1466-09ad-7c63-fde5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="cb38-806b-8c0f-bd96" name="Inspirational" hidden="false" targetId="2551-e4fc-3c56-3874" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="20b0-64f1-7894-628c" name="Treasure Hunter" hidden="false" targetId="c6fa-4c81-1efc-6f62" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e57c-e7d9-d41c-2cd5" name="Xenoshield" hidden="false" targetId="2ed6-04f7-12ae-0f7c" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="5242-125f-5bc6-d310" name="Tactical Brilliance" hidden="false" targetId="a574-67ae-717a-ab65" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4946-8f17-c283-ae43" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3936-cb4c-f0bb-877a" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="67f2-ca52-d4f7-5a68" name="New CategoryLink" hidden="false" targetId="4e5f-f572-3d17-458b" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="c298-a340-b5a6-eb33" name="Captain" hidden="false" targetId="0e4c-afda-6cec-c549" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="ac06-05d2-aa4e-5f6b" name="Crown" hidden="false" targetId="59c9-3b3d-2a2c-b5d9" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="e566-f35b-f9b5-ddf6" name="Female" hidden="false" targetId="3620-2a28-c3fe-9a53" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="dbb1-7dee-e382-3aa8" name="Human" hidden="false" targetId="2959-545d-5227-6114" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="cb91-9768-ea75-ffcd" name="Legendary" hidden="false" targetId="72e0-dbf6-081a-05ed" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="18e7-1532-20fd-94e1" name="Mercenary" hidden="false" targetId="0f35-7fa0-d840-2b82" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="5ac5-3174-a0dc-95f8" name="Nautilus" hidden="false" targetId="8a16-88ad-391f-4da8" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="4dfd-389c-17ff-a57e" name="Outlaws" hidden="false" targetId="3ba7-5fcc-0fe1-5503" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="9a12-4753-d4e9-89ce" name="Rotory Harpette" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="f41d-2305-a42d-6483" name="Rotory Harpette" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="10&quot;"/>
-                <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
-                <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="2"/>
-                <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Revolver Fan"/>
-                <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Lethal"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="33ec-42e2-0b1b-59e0" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="c70d-1a0f-699d-5e25" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e06-faf0-831a-d4eb" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2809-703b-13f4-ae26" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="430b-700e-eb55-1d5e" name="Trishula of Triton" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="a7b3-30f4-7f62-846a" name="Trishula of Triton" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="1&quot;"/>
-                <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-3"/>
-                <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="2"/>
-                <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Parry, Complex"/>
-                <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Lethal"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="e438-d5bf-e185-c382" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="6d5b-5caf-208f-9768" name="Complex" hidden="false" targetId="4d40-f351-7a3b-bff6" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="4b52-d5c3-9441-bb90" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f823-8484-d0d7-145e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f8a-3878-6e17-9434" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="04c2-65bf-bc50-f082" name="Relic Blade" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="2239-c285-8ede-9957" name="Relic Blade" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="1&quot;"/>
-                <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
-                <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
-                <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Hazardous"/>
-                <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="38de-df67-8f81-f97f" name="Hazardous" hidden="false" targetId="7125-098f-0f6e-6065" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d292-2550-fc35-7e2e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9351-3cb5-2ad4-a707" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="275.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="b528-7d70-68e8-5243" name="Viktor Beitel" hidden="false" collective="false" type="unit">
       <profiles>
         <profile id="f624-0720-6a43-e396" name="Viktor Beitel" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
@@ -2741,7 +2465,7 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
         <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="230.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8c8-5582-5b32-de52" name="Slot 1 - Brutus" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="f8c8-5582-5b32-de52" name="Slot 1 - Brutus" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3823,7 +3547,7 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
         <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e981-b92c-2275-4e93" name="Slot 2 - Up to Two Outlaw Confederate Units" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e981-b92c-2275-4e93" name="Slot 2 - Up to Two Outlaw Confederate Units" hidden="false" collective="false" type="unit">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4026,7 +3750,10 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ae-8fc1-6ef3-c233" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="617d-36fa-bee1-7250" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="f270-6701-8b54-0b45" name="New CategoryLink" hidden="false" targetId="a5f4-35aa-0333-eeea" primary="true">
           <profiles/>
@@ -4038,7 +3765,498 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="534c-69c4-662d-e254" name="Mounted Quantrill&apos;s Raiders Face" hidden="false" targetId="2301-d3c5-b1a5-75d2" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8986-fc82-1395-e3a3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="890c-07f8-8bf7-a72a" name="Outlaws Mounted Units" hidden="false" targetId="90f5-73c2-6666-efb0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a622-4010-ddd0-ca8d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7ef0-fe92-0973-ebe2" name="Slot 2 - An Outlaw Confederate Mounted Face and/or an Outlaws Mounted Unit" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="516a-54b3-1be0-2da2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="12bf-75e8-3c4d-f57b" name="New CategoryLink" hidden="false" targetId="a5f4-35aa-0333-eeea" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c3e0-8658-3640-802c" name="Outlaw Confederate Mounted Faces" hidden="false" targetId="2264-6711-87aa-536b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d31-65f9-872e-cc7a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4432-0288-e869-6eff" name="Outlaws Mounted Units" hidden="false" targetId="90f5-73c2-6666-efb0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73bd-d31d-0c61-9ee6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aa74-b478-f0de-0621" name="Slot 3 - An Outlaw Confederate Mounted Face and/or an Outlaws Mounted Unit" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6186-d474-a4a7-685a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5198-1df9-1dc4-5025" name="New CategoryLink" hidden="false" targetId="a5f4-35aa-0333-eeea" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f567-6864-d701-799c" name="Outlaw Confederate Mounted Faces" hidden="false" targetId="2264-6711-87aa-536b" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79bb-7fe6-933d-bfdb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4596-476e-c7b2-8a2f" name="Outlaws Mounted Units" hidden="false" targetId="90f5-73c2-6666-efb0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fac-5a78-60be-226f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9627-3b91-803c-8ff8" name="Slot 4 - A unit of Bandit Outriders or Raider Trailblazers" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9efb-ee43-7632-ded8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c8cd-e607-1e1e-7875" name="New CategoryLink" hidden="false" targetId="a5f4-35aa-0333-eeea" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9718-9968-0b08-f5da" name="Outriders or Trailblazers" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2bd-c72e-4f7f-0598" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="4090-bb7b-5474-6d4a" name="Bandit Outriders" hidden="false" targetId="a80f-9988-fd56-5148" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="12de-9d54-5b3f-40c5" name="Raider Trailblazers" hidden="false" targetId="fe13-943e-abc4-1d06" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="27be-d533-68cd-1bc6" name="Slot 5 - A unit of Bandit Outriders and/or an Outlaw Mercenary Support" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0eb-5d03-e310-cad4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6ce0-7b37-93af-510a" name="New CategoryLink" hidden="false" targetId="a5f4-35aa-0333-eeea" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a55e-e091-ae84-d675" name="Bandit Outriders" hidden="false" targetId="a80f-9988-fd56-5148" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="143f-cee5-0f03-cb30" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="aacc-cb75-2d47-73f9" name="Mercenary Support" hidden="false" targetId="917b-a979-4c08-daaf" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d56-a732-7593-53b7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52e6-eb50-2d70-e3c8" name="Slot 6 - A unit of Bandit Outriders and/or an Outlaw Mercenary Support" hidden="false" collective="false" type="unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b861-048a-2729-99a8" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="af26-1d88-c3ee-1820" name="New CategoryLink" hidden="false" targetId="a5f4-35aa-0333-eeea" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="07f4-d256-041a-92d2" name="Bandit Outriders" hidden="false" targetId="a80f-9988-fd56-5148" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebfa-54b3-cc0f-238a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ab53-ac70-4840-30e1" name="Mercenary Support" hidden="false" targetId="917b-a979-4c08-daaf" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3e9-d8c2-f1fa-d078" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cb2-8da8-caeb-367d" name="Slot 1 - A unit with the Nautilus trait" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc2b-ef03-ce04-45d6" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a263-463d-3115-356d" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="2f62-9e24-5232-98ae" name="New CategoryLink" hidden="false" targetId="6066-bf8b-c355-66d4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="f527-712e-3b23-c7bd" name="Nautilus Units" hidden="false" targetId="cb99-634f-ce0f-3279" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21fe-f783-cece-e36e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="3b3e-1240-8ff1-f605" name="Slot 2 - A unit with the Nautilus trait" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="492d-0776-3187-316d" name="New CategoryLink" hidden="false" targetId="6066-bf8b-c355-66d4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ddba-6c86-5e45-7707" name="Nautilus Units" hidden="false" targetId="cb99-634f-ce0f-3279" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2045-8800-95c4-0ace" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c027-4c06-6322-a505" name="Slot 3 - A unit with the Nautilus trait" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e29f-8cf7-ea64-09f7" name="New CategoryLink" hidden="false" targetId="6066-bf8b-c355-66d4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="a7bc-5ab8-98cc-ba8d" name="Nautilus Units" hidden="false" targetId="cb99-634f-ce0f-3279" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a28-3e6a-35d5-873e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="b96a-d679-31ea-f801" name="Slot 4 - A unit with the Nautilus trait" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d9f8-5c4d-2edf-c4c3" name="New CategoryLink" hidden="false" targetId="6066-bf8b-c355-66d4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="aa99-4055-33e9-b9a3" name="Nautilus Units" hidden="false" targetId="cb99-634f-ce0f-3279" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94cf-9abf-244c-3550" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="6b82-c373-c959-6737" name="Slot 5 - A unit with the Nautilus trait" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bb88-0fb5-1815-249d" name="New CategoryLink" hidden="false" targetId="6066-bf8b-c355-66d4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="bd62-5c8d-98bc-6951" name="Nautilus Units" hidden="false" targetId="cb99-634f-ce0f-3279" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f461-10e6-d2fe-50d4" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5278-4703-db5a-72ec" name="Slot 6 - A unit with the Nautilus trait" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3c1d-e3e3-043a-7452" name="New CategoryLink" hidden="false" targetId="6066-bf8b-c355-66d4" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7e9d-de76-cdb1-4999" name="Nautilus Units" hidden="false" targetId="cb99-634f-ce0f-3279" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ac1-2133-e215-4ac5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="c993-4ce5-b00e-1759" name="Slot 1 - An Outlaw Mercenary Hands and/or an Outlaw Cowboy Face unit" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5363-4b91-5763-b1a1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="057c-a527-a7b0-8044" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e2b2-c216-225c-2245" name="New CategoryLink" hidden="false" targetId="1eac-201e-49a2-8416" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6ad7-c065-1cbf-0a0a" name="Cowboys Faces" hidden="false" targetId="b413-244e-f47e-aad4" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a8d-8797-5f98-b753" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="388d-ef24-6cfc-fc93" name="Mercenary Hands" hidden="false" targetId="ed02-fb71-121a-751f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="140a-aa6f-2bc4-d9d1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs/>
     </selectionEntry>
   </selectionEntries>
@@ -4844,6 +5062,30 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
       </categoryLinks>
     </entryLink>
     <entryLink id="bd5b-1a3d-ed56-235f" name="Madre Monica Perez" hidden="false" targetId="2f52-4dbb-52b4-31e9" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="3e4a-9532-b2f6-2703" name="Rani Nimue" hidden="false" targetId="ea63-b023-50da-4099" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5712-842e-48bb-bee8" name="New CategoryLink" hidden="false" targetId="fb08-5d0e-857d-4fdb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f50f-3803-c212-6506" name="Rani Nimue" hidden="false" targetId="ea63-b023-50da-4099" type="selectionEntry">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5951,7 +6193,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -6715,7 +6959,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -8610,7 +8856,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -9010,7 +9258,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -9310,7 +9560,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -9571,7 +9823,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -9819,7 +10073,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -10401,7 +10657,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -11153,7 +11411,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -11527,7 +11787,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -11798,7 +12060,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -13150,7 +13414,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
                   <categoryLinks/>
                 </entryLink>
               </entryLinks>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -13566,7 +13832,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -14566,38 +14834,10 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
       </costs>
     </selectionEntry>
     <selectionEntry id="66d2-f85c-5b62-b237" name="Ross Mackeye" hidden="false" collective="false" type="unit">
-      <profiles>
-        <profile id="7e14-2649-cf82-0f33" name="Ross Mackeye" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
-            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
-            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
-            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
-            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
-            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
-            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <profiles/>
       <rules/>
       <infoLinks>
         <infoLink id="73e5-adba-1d58-447d" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="7149-ecc6-9c8e-cbd1" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="11c8-e462-4759-fc05" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -14691,7 +14931,143 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b54a-3e04-d842-1826" name="Mount" hidden="false" collective="false" defaultSelectionEntryId="8bd6-2d85-e7f5-61e3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa0-614b-77ed-0c9d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a39c-1741-5914-db66" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="ae07-d925-9278-1a73" name="Mounted" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f67d-27f1-9e00-1a99" name="Ross Mackeye" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="8"/>
+                    <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+                    <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+                    <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+                    <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+                    <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+                    <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7e1f-5c51-61e4-77e6" name="Moving Target" hidden="false" targetId="5599-fcda-4891-9c0c" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="44c7-e1c6-676d-6407" name="Rapid" hidden="false" targetId="74e4-df7a-34f5-5500" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="bd96-fce6-7f57-2479" name="Machine" hidden="false" targetId="2fcb-3308-0cf8-9947" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="46cc-0879-881f-fb8c" name="Mounted" hidden="false" targetId="3e31-72f2-5743-20e1" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="03a7-07f9-1af6-1d58" name="Iron Horse" hidden="false" targetId="42e6-abe8-c7c0-4ee6" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="d799-5e17-3759-5bb3" name="Gatling Guns" hidden="false" targetId="a4fd-f35f-b742-577e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a35-bfcf-b102-22e9" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23ed-afbd-4423-3683" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8bd6-2d85-e7f5-61e3" name="Dismounted" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a040-7270-32af-37f5" name="Ross Mackeye" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+                    <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+                    <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+                    <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+                    <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+                    <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+                    <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="272c-d445-3429-3bef" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="e3f3-75e3-ba51-f2de" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="410a-da8c-91dc-b961" name="Officer&apos;s Sabre" hidden="false" targetId="ef76-c3f0-f849-efa5" type="selectionEntry">
           <profiles/>
@@ -17899,7 +18275,152 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
         </categoryLink>
       </categoryLinks>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="63c1-6754-6a63-3697" name="Mount" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ded-9eb2-bd64-035b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="835b-c660-4769-6380" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="97b6-c703-82e0-b2a6" name="Mounted" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="ec80-1cfb-118e-1b70" name="Thomas Russell" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="8"/>
+                    <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+                    <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+                    <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+                    <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+                    <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+                    <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c55a-4be8-501b-4bc2" name="Moving Target" hidden="false" targetId="5599-fcda-4891-9c0c" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="c661-61f1-9b63-1389" name="Rapid" hidden="false" targetId="74e4-df7a-34f5-5500" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="f4fd-8530-65f9-a74a" name="Machine" hidden="false" targetId="2fcb-3308-0cf8-9947" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="a2f1-497a-28c7-356b" name="Mounted" hidden="false" targetId="3e31-72f2-5743-20e1" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="0b45-ffdf-9e9a-a9f6" name="Iron Horse" hidden="false" targetId="42e6-abe8-c7c0-4ee6" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="5a23-5769-097c-3a3c" name="Gatling Guns" hidden="false" targetId="a4fd-f35f-b742-577e" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b36-be63-8c54-bd6f" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bcd-33fe-8ae4-322d" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="65.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c81f-4cce-519e-9654" name="Dismounted" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="3ed0-82e3-69ca-5206" name="Thomas Russell" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+                    <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="4"/>
+                    <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+                    <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="5"/>
+                    <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="5"/>
+                    <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="5"/>
+                    <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="0"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="04e9-4b9a-2f6f-02ac" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="eba1-fb63-8e9f-7b2a" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="b343-21b9-5885-d458" name="Juiced Rifle" hidden="false" targetId="3887-ea9b-0345-a78b" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5084-1e43-4e5c-ae24" name="Lasso" hidden="false" targetId="7d33-6309-324f-c458" type="selectionEntry">
           <profiles/>
@@ -17918,14 +18439,6 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
           <categoryLinks/>
         </entryLink>
         <entryLink id="14a1-290d-645f-d5e2" name="Juiced Sabre" hidden="false" targetId="1072-74cf-e5af-eddf" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="971f-4b15-1c42-a137" name="Juiced Rifle" hidden="false" targetId="3887-ea9b-0345-a78b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -19863,7 +20376,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -20469,7 +20984,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -21724,7 +22241,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -21885,7 +22404,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d073-0b10-7ded-2bf2" name="William Quantrill" hidden="false" collective="false" type="unit">
       <profiles>
@@ -22471,7 +22992,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -22821,7 +23344,9 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -23132,6 +23657,309 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
       <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="225.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea63-b023-50da-4099" name="Rani Nimue" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="105f-d843-2148-24d9" name="Rani Nimue" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="6"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="4"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="7"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="79ed-bf63-6cad-a783" name="Unique" hidden="false" targetId="0c90-44c9-d012-1bea" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d763-7035-b95f-5b7a" name="Unit" hidden="false" targetId="fad2-1e3c-17dd-ea53" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ff6b-a4a8-2abb-ffff" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1324-6899-59bc-39a7" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2cf7-b996-bd74-1829" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fae1-cc32-4400-2d59" name="Prodigious" hidden="false" targetId="a2bb-4b7f-7a00-558b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9fcd-8358-565a-90d8" name="Elite" hidden="false" targetId="b209-b387-3956-8458" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7045-5748-0019-42a9" name="Largesse" hidden="false" targetId="1466-09ad-7c63-fde5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d463-69b4-5f9d-f809" name="Inspirational" hidden="false" targetId="2551-e4fc-3c56-3874" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ac8f-a82a-282e-7169" name="Treasure Hunter" hidden="false" targetId="c6fa-4c81-1efc-6f62" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cfa7-8e96-add5-30a7" name="Xenoshield" hidden="false" targetId="2ed6-04f7-12ae-0f7c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8102-96d0-3ee6-63c5" name="Tactical Brilliance" hidden="false" targetId="a574-67ae-717a-ab65" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6234-78b7-1162-6cda" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5974-b5dc-9eb3-e3b1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0068-3d3b-4f42-bb39" name="New CategoryLink" hidden="false" targetId="4e5f-f572-3d17-458b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6a28-4c76-f519-4c35" name="Captain" hidden="false" targetId="0e4c-afda-6cec-c549" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c8b8-b556-f174-0a99" name="Crown" hidden="false" targetId="59c9-3b3d-2a2c-b5d9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b44f-cdba-6926-32d1" name="Female" hidden="false" targetId="3620-2a28-c3fe-9a53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="77ac-165e-8f3a-9357" name="Human" hidden="false" targetId="2959-545d-5227-6114" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d6db-efab-807a-fc99" name="Legendary" hidden="false" targetId="72e0-dbf6-081a-05ed" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b757-f3da-25c4-c84e" name="Mercenary" hidden="false" targetId="0f35-7fa0-d840-2b82" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f377-08fa-12b2-39c4" name="Nautilus" hidden="false" targetId="8a16-88ad-391f-4da8" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="6e43-4c6e-da23-4ce2" name="Outlaws" hidden="false" targetId="3ba7-5fcc-0fe1-5503" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="49d4-4a00-1f03-71b7" name="Rotory Harpette" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7010-c3bf-058b-f0c4" name="Rotory Harpette" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="10&quot;"/>
+                <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+                <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="2"/>
+                <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Revolver Fan"/>
+                <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Lethal"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8da4-baba-2458-80e6" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3858-94a1-bd3d-5d66" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65f0-a4b5-b04a-c8f9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="268a-1832-1fa2-f438" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f698-352f-35b9-3b23" name="Trishula of Triton" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="07bf-f7b6-9077-5824" name="Trishula of Triton" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="1&quot;"/>
+                <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-3"/>
+                <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="2"/>
+                <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Parry, Complex"/>
+                <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d" value="Lethal"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="cf34-b0d8-dfeb-b393" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="99da-4057-b60f-3ff7" name="Complex" hidden="false" targetId="4d40-f351-7a3b-bff6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="1cae-87f8-0366-345f" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1961-990f-7a03-7a8b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="852d-f6f6-01fb-4d69" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d9e0-cc71-87e2-80f9" name="Relic Blade" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a84f-a472-f3ae-660e" name="Relic Blade" hidden="false" profileTypeId="1293-38cf-ef83-e62e" profileTypeName="Weapon/Attack">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="cd5a-721a-cd4b-ca7a" value="1&quot;"/>
+                <characteristic name="Pierce" characteristicTypeId="e4ce-b6bb-9469-1aa2" value="-2"/>
+                <characteristic name="Rate of Attack" characteristicTypeId="3c88-853f-7944-514e" value="1"/>
+                <characteristic name="Qualities" characteristicTypeId="461f-8df2-ad59-0fb1" value="Hazardous"/>
+                <characteristic name="Critical" characteristicTypeId="f818-5957-e275-643d"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5ed3-b116-c4b2-8e27" name="Hazardous" hidden="false" targetId="7125-098f-0f6e-6065" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7b3-db69-2a76-aca0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6951-3cd1-0251-f665" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="275.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -25242,7 +26070,7 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="cb99-634f-ce0f-3279" name="Nautilus Faces" hidden="false" collective="false">
+    <selectionEntryGroup id="cb99-634f-ce0f-3279" name="Nautilus Units" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -26013,11 +26841,57 @@ If all six slots are filled with at least one unit, every unit in the Posse gain
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2264-6711-87aa-536b" name="Outlaw Confederate Mounted Faces" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="cca6-ae62-d036-bf2c" name="Frank James" hidden="false" targetId="aa0e-723f-8b93-46ad" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e285-8bdd-dbde-ec81" name="Ross Mackeye" hidden="false" targetId="66d2-f85c-5b62-b237" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="018f-c838-e825-202a" name="Jake Mattia" hidden="false" targetId="3958-bf3e-4917-0a4b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0d68-0af4-d4cf-b2e3" name="Thomas Russell" hidden="false" targetId="c129-bc85-0c06-295f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules/>
