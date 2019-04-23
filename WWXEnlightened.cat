@@ -5,82 +5,46 @@
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries/>
-  <forceEntries/>
-  <selectionEntries>
-    <selectionEntry id="852f-56cc-85b0-7202" name="Burson Carpathian" hidden="false" collective="false" type="model">
+  <categoryEntries>
+    <categoryEntry id="4098-d433-baa4-321d" name="Annabelle Hamilton" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9583-76cc-7d4e-b519" name="Hexalith" hidden="true" collective="false" type="model">
-      <profiles>
-        <profile id="9f95-ee5e-e41b-46ae" name="Hexalith" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="-"/>
-            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="-"/>
-            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="1"/>
-            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="-"/>
-            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="-"/>
-            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
-            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="1"/>
-          </characteristics>
-        </profile>
-      </profiles>
+    </categoryEntry>
+    <categoryEntry id="d5aa-65fa-127d-9fca" name="Dixie Resurrection Posse" hidden="false">
+      <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
+    </categoryEntry>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="38d6-32a9-9909-0277" name="Dixie Resurrection Theme Posse" hidden="false">
+      <profiles/>
+      <rules>
+        <rule id="4a86-f1d1-b347-20a7" name="Dixie Resurrection Theme Posse" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
       <categoryLinks>
-        <categoryLink id="b705-84db-8310-b947" name="Artefact" hidden="false" targetId="5f19-88bf-ae56-72fb" primary="true">
+        <categoryLink id="31ad-f9b2-0136-10d3" name="Annabelle Hamilton" hidden="false" targetId="4098-d433-baa4-321d" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </categoryLink>
-        <categoryLink id="7794-e7cf-18e8-0e51" name="Enlightenend" hidden="false" targetId="c768-9942-077b-bb01" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="af76-8aa4-45f6-0dd6" name="Hex" hidden="false" targetId="8f78-7262-70d2-d8c2" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="126b-fe5d-a298-2f97" name="Tainted" hidden="false" targetId="4338-f0b6-00da-9e53" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="5849-91c2-02bf-a1f9" name="Portal" hidden="false" targetId="5408-580e-c9df-bd88" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="f24b-8889-bbaa-947e" name="Structure" hidden="false" targetId="04ca-1bbe-a75c-1e67" primary="false">
+        <categoryLink id="4a03-dd22-336a-addd" name="Dixie Resurrection Posse" hidden="false" targetId="d5aa-65fa-127d-9fca" primary="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -88,16 +52,295 @@
           <constraints/>
         </categoryLink>
       </categoryLinks>
-      <selectionEntries/>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="d031-afe0-c435-b4c5" name="Annabelle Hamilton" hidden="false" targetId="616e-0220-d76a-1278" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
+    <entryLink id="94fa-d733-7cb7-0313" name="Annabelle Hamilton" hidden="false" targetId="616e-0220-d76a-1278" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cdc0-f319-dcd4-66c1" name="New CategoryLink" hidden="false" targetId="4098-d433-baa4-321d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="616e-0220-d76a-1278" name="Annabelle Hamilton" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="485d-88d7-f4ad-4e7b" name="Annabelle Hamilton" hidden="false" profileTypeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" profileTypeName="Model/Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quick" characteristicTypeId="4b8e-4447-83c6-521c" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fd77-4dfe-250e-b1e5" value="7"/>
+            <characteristic name="Limit" characteristicTypeId="5422-c4be-2581-afd7" value="3"/>
+            <characteristic name="Aim" characteristicTypeId="7c2d-731e-06f0-e290" value="6"/>
+            <characteristic name="Fight" characteristicTypeId="0317-4cf6-450a-f201" value="6"/>
+            <characteristic name="Grit" characteristicTypeId="2685-f334-855c-1d6b" value="6"/>
+            <characteristic name="Fortune" characteristicTypeId="f2bc-61e4-aa57-5ae4" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c271-49c6-9a69-2eab" name="Carpathogen" hidden="false" targetId="ec1d-4df3-5465-a29e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="52a9-c6dd-8df0-8349" name="Rebel Yell" hidden="false" targetId="0545-d191-1be1-46b2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c40f-c02c-136b-f18c" name="Tactical Brilliance" hidden="false" targetId="a574-67ae-717a-ab65" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a72a-5892-09ba-d392" name="Rabble Rouser" hidden="false" targetId="5a48-2e35-94e2-6bae" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="00d3-c26d-8ce8-a773" name="Portal Mastery" hidden="false" targetId="61f0-bdf1-60c0-0fb5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f99d-fda0-5a2c-7b1d" name="Unique" hidden="false" targetId="0c90-44c9-d012-1bea" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ee5f-0fae-5f60-e514" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c62e-7156-084c-78b6" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1ba4-858d-838e-7b79" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bdd0-01f0-f832-afe4" name="Largesse" hidden="false" targetId="1466-09ad-7c63-fde5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abba-9b36-69ef-d713" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a7-c6f0-5532-9abe" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7009-5975-334f-b407" name="New CategoryLink" hidden="false" targetId="4e5f-f572-3d17-458b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1ec7-78f5-836f-a735" name="Enlightenend" hidden="false" targetId="c768-9942-077b-bb01" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="efa8-386f-635a-663b" name="Female" hidden="false" targetId="3620-2a28-c3fe-9a53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="e2de-fbe7-855a-b368" name="Human" hidden="false" targetId="2959-545d-5227-6114" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="bd20-fdde-8b6f-8fc4" name="Confederate" hidden="false" targetId="999b-8b0a-d7d2-b74c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9988-426f-bd13-3ccc" name="Tainted" hidden="false" targetId="4338-f0b6-00da-9e53" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b6f8-70f3-392a-04af" name="Hammerhand" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="e55e-5002-52ab-be41" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="32b7-7b47-a95c-c759" name="Disorder" hidden="false" targetId="b5cf-2f87-0dbe-cc5f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2f0b-c4f8-d1b7-6968" name="Hammerhand" hidden="false" targetId="5617-2281-c9ad-0b3e" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d4a-1874-5d77-7cbf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6be6-8e80-c1bb-dfc6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ceec-483a-b699-748a" name="Mousegun" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b4eb-0a66-1659-d07f" name="Mousegun" hidden="false" targetId="5850-3477-8fa7-6e1a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2c0d-1159-26bf-64ac" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="b40d-2ced-554e-67d7" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afc9-8574-5dc6-44e2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e53d-fd53-39a6-4da4" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="27f5-a0b1-1550-4a6f" name="Thermite Grenades" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="479b-0b9b-6cb2-8865" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3dd1-d1ea-c3ad-e0d9" name="Blast" hidden="false" targetId="d400-6ae5-653f-5c4e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="62ab-58cb-a6a4-fabd" name="Indirect" hidden="false" targetId="dc1e-e0fa-404f-3bd8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="61df-f293-8b4b-a087" name="Thermite Grenades" hidden="false" targetId="ff23-236c-58bf-a7dd" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7294-88be-29ec-5968" name="Hazardous" hidden="false" targetId="7125-098f-0f6e-6065" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="547f-77c0-3173-b083" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25b0-1b1b-15a4-67fd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+        <cost name=" Points" costTypeId="c31b-12c2-3f65-9d8f" value="230.0"/>
       </costs>
     </selectionEntry>
-  </selectionEntries>
-  <entryLinks/>
-  <sharedSelectionEntries/>
+  </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules/>
   <sharedProfiles/>
