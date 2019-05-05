@@ -4024,7 +4024,6 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="648a-3ef6-9815-3f15" name="Basic Melee Weapon" hidden="false" collective="false" targetId="1be1-4076-3e3f-ed73" type="selectionEntry"/>
-        <entryLink id="412a-fbb4-6962-b3ee" name="Mount" hidden="false" collective="false" targetId="572c-aedd-8a66-c93a" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="145.0"/>
@@ -4121,15 +4120,9 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b234-7a60-ddf1-1150" name="Throwing Knives" hidden="false" collective="false" targetId="043f-ea8a-2c63-ba2a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d27-2484-2129-e095" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bc0-66fa-949c-dafe" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="873e-4877-24c7-2369" name="Throwing Knives" hidden="false" collective="false" targetId="043f-ea8a-2c63-ba2a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0d-5c82-80d4-ac1c" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0d-5c82-80d4-ac1c" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea8-6ef8-3d0e-717f" type="max"/>
           </constraints>
         </entryLink>
