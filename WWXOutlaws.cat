@@ -10406,6 +10406,9 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
         <categoryLink id="12bd-0e25-a949-6c4c" name="Portal" hidden="false" targetId="5408-580e-c9df-bd88" primary="false"/>
         <categoryLink id="9490-6b93-0c07-11b5" name="Structure" hidden="false" targetId="04ca-1bbe-a75c-1e67" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -10562,6 +10565,9 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
           <entryLinks>
             <entryLink id="8a50-0cc4-c3ba-10fd" name="Electrocarbines" hidden="false" collective="false" targetId="3b77-c43e-0e12-7075" type="selectionEntry"/>
           </entryLinks>
+          <costs>
+            <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9b31-517e-4d24-54db" name="Special Issue - Flamethrowers" hidden="false" collective="false" type="upgrade">
           <entryLinks>
