@@ -409,7 +409,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafd-5b9f-1e23-d4e0" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="bfdd-5478-5dc1-dfcb" name="Juiced Pistol" hidden="false" targetId="57aa-4639-96e5-4d20" type="profile"/>
+        <infoLink id="bfdd-5478-5dc1-dfcb" name="Juiced Pistols" hidden="false" targetId="d779-0856-ce7d-60e7" type="profile"/>
         <infoLink id="e458-f10b-f360-b65e" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
         <infoLink id="f462-648b-5edb-b2f2" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule"/>
         <infoLink id="b4cc-0851-a4bf-3be3" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule"/>
