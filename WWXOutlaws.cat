@@ -5083,28 +5083,6 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
         <categoryLink id="b835-d819-fc4d-d1ba" name="Tainted" hidden="false" targetId="4338-f0b6-00da-9e53" primary="false"/>
         <categoryLink id="8c4c-56a1-9913-1ce7" name="Sergeant" hidden="false" targetId="0eaf-5a90-46b6-0197" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="4e35-834d-4e8b-5ba2" name="Fellblades" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="237b-912f-f8b4-b9a5" name="Fellblades" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
-              <characteristics>
-                <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a">-</characteristic>
-                <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-1</characteristic>
-                <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">2</characteristic>
-                <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1">Parry</characteristic>
-                <characteristic name="Critical" typeId="f818-5957-e275-643d">Decapitate</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="703b-0b9e-969a-a003" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule"/>
-            <infoLink id="6790-6996-19b3-5d71" name="Decapitate" hidden="false" targetId="bf1b-a623-0d35-4b78" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="9c49-7ad2-2ff0-8045" name="Failsafe Implant" hidden="false" collective="false" targetId="e8a0-822c-b39e-a89f" type="selectionEntry"/>
         <entryLink id="2e9e-bc1a-971e-fe9b" name="Ketchum Grenade" hidden="false" collective="false" targetId="a762-f589-10f4-61f1" type="selectionEntry">
@@ -5114,6 +5092,7 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
           </constraints>
         </entryLink>
         <entryLink id="fd79-e855-8169-8c42" name="Juiced Pistols" hidden="false" collective="false" targetId="93be-ca94-2283-9f49" type="selectionEntry"/>
+        <entryLink id="5ec4-b673-c877-2ad5" name="Fellblades" hidden="false" collective="false" targetId="f00d-efbd-e24e-af40" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="130.0"/>
@@ -5342,6 +5321,10 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="37b6-e392-a8bc-1f55" name="Derringers" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e95-b4d0-9a10-bb36" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd3d-b474-65b3-bbaf" type="max"/>
+          </constraints>
           <profiles>
             <profile id="4a68-f3a8-72aa-e0de" name="Derringers" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>
@@ -5820,6 +5803,10 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4fb5-d884-6454-af09" name="Shock Gauntlets" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3054-f4f5-dda8-14c1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0804-4a2e-df48-dec3" type="max"/>
+          </constraints>
           <profiles>
             <profile id="0fee-3015-f452-174b" name="Shock Gauntlets" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>
@@ -5875,13 +5862,13 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <entryLinks>
         <entryLink id="eebb-1103-48c4-947c" name="Basic Melee Weapon" hidden="false" collective="false" targetId="1be1-4076-3e3f-ed73" type="selectionEntry"/>
-        <entryLink id="0590-d3c6-3d4b-09ae" name="Flamethrower (included)" hidden="false" collective="false" targetId="9316-3f71-eec0-ae15" type="selectionEntry">
+        <entryLink id="b5ac-e8ac-4751-c1eb" name="Portal Launcher" hidden="false" collective="false" targetId="b0f4-e555-1b82-dc3a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae54-9b1e-9d38-0ade" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d22-0161-b1b7-66ce" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b2c-96a0-e9b7-5ad2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1126-51b0-1bd0-c83e" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="b5ac-e8ac-4751-c1eb" name="Portal Launcher" hidden="false" collective="false" targetId="b0f4-e555-1b82-dc3a" type="selectionEntry"/>
+        <entryLink id="ecdc-4be1-2b97-ceb3" name="Flamethrower" hidden="false" collective="false" targetId="4c88-be7f-6cec-077d" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="120.0"/>
@@ -6181,6 +6168,10 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c03a-1212-2c87-c72d" name="Revenant Katanas" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b98-42c9-0fb4-1c23" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e794-4b41-e733-8957" type="max"/>
+          </constraints>
           <profiles>
             <profile id="2ee1-5b37-eb46-6cdf" name="Revenant Katanas" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>
@@ -6536,26 +6527,9 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
         <categoryLink id="dc93-18e0-7692-51c2" name="Outlaws" hidden="false" targetId="3ba7-5fcc-0fe1-5503" primary="false"/>
         <categoryLink id="20c8-add8-aba0-2024" name="Warrior Nation" hidden="false" targetId="b91f-8e84-239b-ebf8" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3762-af7a-c20e-5dbd" name="Filleting Blade" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="bbc9-272e-3675-1e13" name="Filleting Blade" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
-              <characteristics>
-                <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a">-</characteristic>
-                <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-1</characteristic>
-                <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">1</characteristic>
-                <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1"/>
-                <characteristic name="Critical" typeId="f818-5957-e275-643d"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="fffa-d933-7a81-d868" name="Drug Pistol" hidden="false" collective="false" targetId="348d-8880-3f63-bcda" type="selectionEntry"/>
+        <entryLink id="eb31-c14d-6bab-63c8" name="Filleting Blade" hidden="false" collective="false" targetId="590b-50a9-c45d-a516" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="115.0"/>
@@ -6667,6 +6641,10 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="553d-cd49-a2b1-d27f" name="Flame Gauntlet (Once Per Game)" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5af-7538-2f15-5e89" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe11-8a43-118f-a443" type="min"/>
+          </constraints>
           <profiles>
             <profile id="9ec0-e448-74bb-4ae9" name="Flame Gauntlet (Once Per Game)" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>
@@ -6781,6 +6759,10 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e4a1-9b39-856b-f462" name="Custom Pistols" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="39c9-81a1-ff7e-0261" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b602-6e5d-28d6-9217" type="max"/>
+          </constraints>
           <profiles>
             <profile id="50ca-0e64-9f7b-50fa" name="Custom Pistols" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>
@@ -6966,6 +6948,26 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="038d-e897-4816-c496" name="Chace Launcher" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca8b-3387-5158-8410" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d69-0acd-a955-5cc8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9633-2df2-6c83-ad2c" name="Chace Launcher" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
+              <characteristics>
+                <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a">15&quot;</characteristic>
+                <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-3</characteristic>
+                <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">1</characteristic>
+                <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1">Refined, Heavy, Blast</characteristic>
+                <characteristic name="Critical" typeId="f818-5957-e275-643d"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="3ef2-b4df-7ef4-6121" name="Refined" hidden="false" targetId="aa95-2c3c-1529-06ce" type="rule"/>
+            <infoLink id="eb98-dcb3-acc0-f4fa" name="Heavy" hidden="false" targetId="dc92-252b-b1ca-4abe" type="rule"/>
+            <infoLink id="664f-9ee4-21b0-feb4" name="Blast" hidden="false" targetId="d400-6ae5-653f-5c4e" type="rule"/>
+          </infoLinks>
           <costs>
             <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
           </costs>
@@ -7240,7 +7242,7 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
         <categoryLink id="bbbf-36bd-4b55-ae43" name="Major" hidden="false" targetId="c61d-0ffc-7e1f-c099" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="63c1-6754-6a63-3697" name="Mount" hidden="false" collective="false">
+        <selectionEntryGroup id="63c1-6754-6a63-3697" name="Mount" hidden="false" collective="false" defaultSelectionEntryId="c81f-4cce-519e-9654">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ded-9eb2-bd64-035b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="835b-c660-4769-6380" type="max"/>
@@ -7398,6 +7400,10 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="bbb5-4b6c-63f2-4d85" name="Martillo Dorado" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f963-fd0e-fa2e-d0b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d1b-2669-a259-45b3" type="max"/>
+          </constraints>
           <profiles>
             <profile id="b2e8-90a2-8508-6ea3" name="Martillo Dorado" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>
@@ -7552,6 +7558,10 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b41c-7fef-efe5-1aa6" name="Thermite Shredder" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="075a-3b5a-185d-c821" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac0c-a41a-d449-058b" type="max"/>
+          </constraints>
           <profiles>
             <profile id="559a-a9ab-a751-ce1f" name="Thermite Shredder" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>

@@ -887,6 +887,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="88f4-41d2-dd65-8613" name="Golden Rifle" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8474-96cd-fcfb-cd1c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04d0-8791-4fec-284e" type="max"/>
+      </constraints>
       <infoLinks>
         <infoLink id="268b-57d9-d11b-e213" name="Ammo Clip" hidden="false" targetId="7afb-5b43-39ae-6154" type="rule"/>
         <infoLink id="44da-81cc-34af-8ae3" name="Golden Rifle" hidden="false" targetId="6c48-7ac3-2f39-d5ac" type="profile"/>
@@ -1625,6 +1629,9 @@
       <infoLinks>
         <infoLink id="660c-5683-f690-6393" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="aa46-1e74-a382-2e8f" name="Hyper-V Rifles" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1646,6 +1653,9 @@
         <infoLink id="da91-cb6d-5eae-2e19" name="Shred" hidden="false" targetId="368d-afd0-7f3f-5d2e" type="rule"/>
         <infoLink id="9b97-6302-0703-4f7a" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fa99-2249-84f6-c66f" name="Reaper Rifle" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1663,6 +1673,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e431-ee6a-1e02-2826" name="Hellion Claws" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1675,7 +1688,7 @@
             <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a"/>
             <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-1</characteristic>
             <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">2</characteristic>
-            <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1"></characteristic>
+            <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1"/>
             <characteristic name="Critical" typeId="f818-5957-e275-643d">Brutal</characteristic>
           </characteristics>
         </profile>
@@ -1683,6 +1696,9 @@
       <infoLinks>
         <infoLink id="e038-898a-986f-c30d" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8b8b-421a-4ebb-7ac0" name="Plasma Six-Shooter" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1705,6 +1721,9 @@
         <infoLink id="916c-973b-9310-e38e" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
         <infoLink id="3363-9370-90a2-edac" name="Hazardous" hidden="false" targetId="7125-098f-0f6e-6065" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1fc6-b4ce-07f5-a6f4" name="Revenant Katana" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1726,6 +1745,9 @@
         <infoLink id="fe13-1b1b-c36d-44bc" name="Decapitate" hidden="false" targetId="bf1b-a623-0d35-4b78" type="rule"/>
         <infoLink id="e951-3133-ee56-19a0" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c068-dc50-5b66-d10e" name="Ninja Stars" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1747,6 +1769,9 @@
         <infoLink id="e4b3-6b29-8200-f5a6" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
         <infoLink id="2b13-9944-fd84-76ab" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2e4e-b6be-44a6-78bb" name="Chain Trap" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1770,6 +1795,9 @@
         <infoLink id="b10f-b840-22a3-8b59" name="Blast" hidden="false" targetId="d400-6ae5-653f-5c4e" type="rule"/>
         <infoLink id="36a5-b0b6-2cbd-b4c1" name="Drag" hidden="false" targetId="64df-83d5-514d-99d4" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="83c3-2293-de53-e64a" name="Hyper-V Rifle" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1791,6 +1819,9 @@
         <infoLink id="b720-2da1-f909-7a8a" name="Shred" hidden="false" targetId="368d-afd0-7f3f-5d2e" type="rule"/>
         <infoLink id="a3d9-9c27-3d0e-6f99" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2cac-9815-a6fe-831a" name="Servo-Claw" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1862,6 +1893,9 @@
         <infoLink id="a8b8-3207-ba55-5b87" name="Torrent" hidden="false" targetId="0893-023f-221e-0baa" type="rule"/>
         <infoLink id="18bd-9d79-98d3-b4f0" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5a45-f7bf-384b-2a35" name="Meat Cleavers" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1898,7 +1932,7 @@
             <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a">15&quot;</characteristic>
             <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-2</characteristic>
             <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">1</characteristic>
-            <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1"></characteristic>
+            <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1"/>
             <characteristic name="Critical" typeId="f818-5957-e275-643d">Lethal</characteristic>
           </characteristics>
         </profile>
@@ -1906,6 +1940,9 @@
       <infoLinks>
         <infoLink id="b3c5-2123-1c33-5b79" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6384-4f79-e85c-5e8b" name="Mortician&apos;s Blade" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1952,6 +1989,9 @@
         <infoLink id="d4ab-f637-daed-8d53" name="Stun" hidden="false" targetId="10f1-667b-26a8-4de4" type="rule"/>
         <infoLink id="a264-6a02-d6d7-f4f7" name="Disorder" hidden="false" targetId="b5cf-2f87-0dbe-cc5f" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6801-cad0-577d-c60f" name="Mortician&apos;s Blades" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -1999,6 +2039,9 @@
         <infoLink id="b980-c993-77a5-930d" name="Torrent" hidden="false" targetId="0893-023f-221e-0baa" type="rule"/>
         <infoLink id="13c7-3d14-81be-c047" name="Engulf" hidden="false" targetId="6ad3-c6e7-3577-2a4a" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1f98-f244-9236-1274" name="(High Freq) Phonic Blaster" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -2021,6 +2064,9 @@
         <infoLink id="d1c6-0327-1082-efe3" name="Torrent" hidden="false" targetId="0893-023f-221e-0baa" type="rule"/>
         <infoLink id="6305-d238-ac84-fd62" name="Refined" hidden="false" targetId="aa95-2c3c-1529-06ce" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d58b-dc33-30c1-b9ca" name="Manreaper Shotgun" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -2034,13 +2080,16 @@
             <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-2</characteristic>
             <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">1</characteristic>
             <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1">Torrent</characteristic>
-            <characteristic name="Critical" typeId="f818-5957-e275-643d"></characteristic>
+            <characteristic name="Critical" typeId="f818-5957-e275-643d"/>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="e756-3132-1a49-8ced" name="Torrent" hidden="false" targetId="0893-023f-221e-0baa" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="44e1-4d90-587b-cb03" name="Electrocoil" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -2063,6 +2112,9 @@
         <infoLink id="5212-203a-00ee-d2ce" name="Disrupt" hidden="false" targetId="ff88-7743-bf89-3ba0" type="rule"/>
         <infoLink id="1f0a-ce54-528d-e636" name="Hazardous" hidden="false" targetId="7125-098f-0f6e-6065" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="10b5-d25e-b6f6-ce02" name="Electrocoils" hidden="false" collective="false" type="upgrade">
       <constraints>
@@ -2085,6 +2137,33 @@
         <infoLink id="9f86-a746-7aa8-8f36" name="Disrupt" hidden="false" targetId="ff88-7743-bf89-3ba0" type="rule"/>
         <infoLink id="33c0-135a-a6ff-a9b1" name="Hazardous" hidden="false" targetId="7125-098f-0f6e-6065" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f00d-efbd-e24e-af40" name="Fellblades" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf4-df20-6fc2-df14" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a5-5eaf-5bbd-b1e5" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="9136-97b8-2b83-9b0b" name="Fellblades" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
+          <characteristics>
+            <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a">-</characteristic>
+            <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-1</characteristic>
+            <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">2</characteristic>
+            <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1">Parry</characteristic>
+            <characteristic name="Critical" typeId="f818-5957-e275-643d">Decapitate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7801-5667-e701-311d" name="Parry" hidden="false" targetId="9e53-2d7d-4ce7-3bd9" type="rule"/>
+        <infoLink id="70b0-4986-b89c-357f" name="Decapitate" hidden="false" targetId="bf1b-a623-0d35-4b78" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
