@@ -409,7 +409,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafd-5b9f-1e23-d4e0" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="bfdd-5478-5dc1-dfcb" name="Juiced Pistols" hidden="false" targetId="d779-0856-ce7d-60e7" type="profile"/>
+        <infoLink id="bfdd-5478-5dc1-dfcb" name="Juiced Pistol" hidden="false" targetId="57aa-4639-96e5-4d20" type="profile"/>
         <infoLink id="e458-f10b-f360-b65e" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
         <infoLink id="f462-648b-5edb-b2f2" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule"/>
         <infoLink id="b4cc-0851-a4bf-3be3" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule"/>
@@ -2246,7 +2246,7 @@
       <description>The weapon acts as a homing device for friendly models in reserve. Should the weapon hit an enemy unit, then any friendly unit held in Reserve gains+ 1 to their Reserves O,ecks. A unit successfully using this bonus must deplC7f as close as possible to the targeted enemy unit </description>
     </rule>
     <rule id="d400-6ae5-653f-5c4e" name="Blast" publicationId="9b21e8c8--pubN75514" page="43" hidden="false">
-      <description>his type of weapon uses the Blast template when determining hits, centred on the Initial Target. If the model fails their Aim O,eck when using this weapon, it is assumed the shot is a dud and has failed to detonate. Should any model be successfully hit by the weapon then any models touched by the template are automatically hit. When used in a Free Shoot Action, a Blast weapon does not use the template and instead causes dS hits on the target (with a maximum of one hit per modeO. </description>
+      <description>This type of weapon uses the Blast template when determining hits, centred on the Initial Target. If the model fails their Aim O,eck when using this weapon, it is assumed the shot is a dud and has failed to detonate. Should any model be successfully hit by the weapon then any models touched by the template are automatically hit. When used in a Free Shoot Action, a Blast weapon does not use the template and instead causes dS hits on the target (with a maximum of one hit per modeO. </description>
     </rule>
     <rule id="13c3-cc4c-b1fc-0ac7" name="Brutal" publicationId="9b21e8c8--pubN75514" page="43" hidden="false">
       <description>After resolving one or more successful hits on the target unit with this weapon, resolve a further single automatic hit on the same unit. You may only gain a single additional hit from this weapon in each Action. </description>
