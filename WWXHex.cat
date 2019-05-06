@@ -1344,7 +1344,7 @@ NAZOMBU Traits.</description>
       <selectionEntries>
         <selectionEntry id="af63-b8c8-e31d-18c1" name="Treewalker" hidden="false" collective="false" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6223-f5f8-0881-4cc2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6223-f5f8-0881-4cc2" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93b9-39a8-7c07-34e9" type="max"/>
           </constraints>
           <profiles>
@@ -4238,6 +4238,7 @@ NAZOMBU Traits.</description>
         <entryLink id="7f57-7c19-0951-ee7d" name="Bandit Dustcutter" hidden="false" collective="false" targetId="2fc6-3b49-31a5-36a3" type="selectionEntry"/>
         <entryLink id="4cd2-a4cf-5d3c-c145" name="Castor" hidden="false" collective="false" targetId="159f-1f5a-2e25-0939" type="selectionEntry"/>
         <entryLink id="8563-814d-e9eb-a664" name="Pollux" hidden="false" collective="false" targetId="6b10-21bd-788a-e928" type="selectionEntry"/>
+        <entryLink id="49d2-f28a-1ec9-d18c" name="Wendigo" hidden="false" collective="false" targetId="b601-6e70-ebc3-9fff" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="6996-a554-293c-5506" name="Hex Faces and Hands" hidden="false" collective="false">
