@@ -6169,6 +6169,10 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c03a-1212-2c87-c72d" name="Revenant Katanas" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="227f-6359-0612-9ce9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9630-33f6-7a82-e418" type="min"/>
+          </constraints>
           <profiles>
             <profile id="2ee1-5b37-eb46-6cdf" name="Revenant Katanas" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>
