@@ -409,7 +409,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafd-5b9f-1e23-d4e0" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="bfdd-5478-5dc1-dfcb" name="Juiced Pistol" hidden="false" targetId="57aa-4639-96e5-4d20" type="profile"/>
+        <infoLink id="bfdd-5478-5dc1-dfcb" name="Juiced Pistols" hidden="false" targetId="d779-0856-ce7d-60e7" type="profile"/>
         <infoLink id="e458-f10b-f360-b65e" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
         <infoLink id="f462-648b-5edb-b2f2" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule"/>
         <infoLink id="b4cc-0851-a4bf-3be3" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule"/>
@@ -461,7 +461,6 @@
     <selectionEntry id="9316-3f71-eec0-ae15" name="Flamethrower (included)" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f0-e1d6-9dac-6818" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb44-004a-895a-97ed" type="min"/>
       </constraints>
       <infoLinks>
         <infoLink id="19a4-2b42-4003-5966" name="Flamethrower" hidden="false" targetId="946c-c8f2-8201-850e" type="profile"/>
@@ -2246,7 +2245,7 @@
       <description>The weapon acts as a homing device for friendly models in reserve. Should the weapon hit an enemy unit, then any friendly unit held in Reserve gains+ 1 to their Reserves O,ecks. A unit successfully using this bonus must deplC7f as close as possible to the targeted enemy unit </description>
     </rule>
     <rule id="d400-6ae5-653f-5c4e" name="Blast" publicationId="9b21e8c8--pubN75514" page="43" hidden="false">
-      <description>This type of weapon uses the Blast template when determining hits, centred on the Initial Target. If the model fails their Aim O,eck when using this weapon, it is assumed the shot is a dud and has failed to detonate. Should any model be successfully hit by the weapon then any models touched by the template are automatically hit. When used in a Free Shoot Action, a Blast weapon does not use the template and instead causes dS hits on the target (with a maximum of one hit per modeO. </description>
+      <description>This type of weapon uses the Blast template when determining hits, centred on the Initial Target. If the model fails their Aim Check when using this weapon, it is assumed the shot is a dud and has failed to detonate. Should any model be successfully hit by the weapon then any models touched by the template are automatically hit. When used in a Free Shoot Action, a Blast weapon does not use the template and instead causes d5 hits on the target (with a maximum of one hit per model). </description>
     </rule>
     <rule id="13c3-cc4c-b1fc-0ac7" name="Brutal" publicationId="9b21e8c8--pubN75514" page="43" hidden="false">
       <description>After resolving one or more successful hits on the target unit with this weapon, resolve a further single automatic hit on the same unit. You may only gain a single additional hit from this weapon in each Action. </description>
@@ -2294,7 +2293,7 @@
       <description>Actions made with this weapon score a Critical Success on a natural roll of a 9 or a 10. </description>
     </rule>
     <rule id="dc1e-e0fa-404f-3bd8" name="Indirect" publicationId="9b21e8c8--pubN75514" page="44" hidden="false">
-      <description>A weapon with this quality does not require Line of Sight to its target and ignores Obsrured penalties. Make an Aim Check as nonnal. lfthe Checkfails, the shot is assumed to go wide and not cause any effect on the game. If the Check is passed, place the centre of the Blast template over the intended target and then the template scatters dS+ 1 inches in a random direction. Any models touched by the template are automatically hit. Use the centre of the template for determining direction for calculating Obscured bonuses to Grit Checks. A model may spend an additional + 1 Action Point to ignore this quality when using this weapon in a Shoot Action.</description>
+      <description>A weapon with this quality does not require Line of Sight to its target and ignores Obsrured penalties. Make an Aim Check as normal. lft he Check fails, the shot is assumed to go wide and not cause any effect on the game. If the Check is passed, place the centre of the Blast template over the intended target and then the template scatters d5+ 1 inches in a random direction. Any models touched by the template are automatically hit. Use the centre of the template for determining direction for calculating Obscured bonuses to Grit Checks. A model may spend an additional + 1 Action Point to ignore this quality when using this weapon in a Shoot Action.</description>
     </rule>
     <rule id="4f2a-de0f-a89b-78b0" name="Revolver Fan" publicationId="9b21e8c8--pubN75514" page="44" hidden="false">
       <description>Once per Activation, the unit may spend an Action Point and double its Rate of Attack with this weapon in a Shoot Action. During that Shoot Action the model receives a -2 penalty to their Aim Attribute. When using the Revolver Fan quality, the weapon cannot score a Critical Success. </description>
@@ -2318,7 +2317,7 @@
       <description>Once per Activation the weapon may be used as a Ranged Weapon with an s• range with the Rate of Attack indicated. </description>
     </rule>
     <rule id="0893-023f-221e-0baa" name="Torrent" publicationId="9b21e8c8--pubN75514" page="45" hidden="false">
-      <description>Use the tear shaped Torrent template with this weapon. The narrow end is placed flat touching any point of the edge of the attacker&apos;s base, with the centreline touching the initial target of the shoot action. If the Initial Target is not hit by the attack, it is assumed the weapon has failed to fire. Should the Initial Target be successfully hit then all models touched by the template are automatically hit. This does not include the firing model! Models that have their Line of Sight completely blocked from the original attacker by terrain can still be affected by the torrent but cannot be the Initial Target When used in a Free Shoot Action, a Torrent weapon does not use the template and instead causes dS hits on the target (with a maximum of one hit per model). </description>
+      <description>Use the tear shaped Torrent template with this weapon. The narrow end is placed flat touching any point of the edge of the attacker&apos;s base, with the centreline touching the initial target of the shoot action. If the Initial Target is not hit by the attack, it is assumed the weapon has failed to fire. Should the Initial Target be successfully hit then all models touched by the template are automatically hit. This does not include the firing model! Models that have their Line of Sight completely blocked from the original attacker by terrain can still be affected by the torrent but cannot be the Initial Target When used in a Free Shoot Action, a Torrent weapon does not use the template and instead causes d5 hits on the target (with a maximum of one hit per model). </description>
     </rule>
     <rule id="fad2-1e3c-17dd-ea53" name="Unit" hidden="false"/>
     <rule id="3c72-1c70-0905-ac20" name="Suicide" publicationId="9b21e8c8--pubN75514" page="45" hidden="false">

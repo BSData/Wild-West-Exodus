@@ -690,14 +690,14 @@ NAZOMBU Traits.</description>
         <categoryLink id="0bf5-74d0-5c30-e55c" name="Absolute Power Theme Posse" hidden="false" targetId="8afa-a771-b801-270a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="27bb-c792-5324-0466" name="Hex Hands (Aboslute Power)" hidden="false" collective="false" targetId="bf76-a1c1-c595-c190" type="selectionEntryGroup">
+        <entryLink id="27bb-c792-5324-0466" name="Hex Hands (Absolute Power)" hidden="false" collective="false" targetId="bf76-a1c1-c595-c190" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ebb-d376-90cf-1a73" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ebb-d376-90cf-1a73" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="c6e0-715e-15d6-8231" name="Hex Non-Vehicle Support (Absolute Power)" hidden="false" collective="false" targetId="3d32-d70f-cd53-8c4d" type="selectionEntryGroup">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ac-4ae1-f443-e938" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4ac-4ae1-f443-e938" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3125,6 +3125,10 @@ NAZOMBU Traits.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="b586-5bb7-228d-3863" name="Megan Wild" publicationId="9b21e8c8--pubN75514" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ec8-b6b9-0acb-ea34" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f62f-0558-b0e7-792a" type="max"/>
+      </constraints>
       <profiles>
         <profile id="c740-0858-2195-40f8" name="Megan Wild" hidden="false" typeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" typeName="Model/Unit">
           <characteristics>
@@ -3147,6 +3151,7 @@ NAZOMBU Traits.</description>
         <infoLink id="8372-c114-40e6-2f31" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule"/>
         <infoLink id="5250-011c-d837-99b7" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule"/>
         <infoLink id="3c14-3654-7a64-1206" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule"/>
+        <infoLink id="b2c1-1247-bd72-f88f" name="Unique" hidden="false" targetId="0c90-44c9-d012-1bea" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="024f-bf60-4cc9-bd04" name="Female" hidden="false" targetId="3620-2a28-c3fe-9a53" primary="false"/>
@@ -3544,6 +3549,10 @@ NAZOMBU Traits.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4fb-a8cf-0174-dfcc" name="Kreechur" publicationId="9b21e8c8--pubN75514" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a366-c7d3-aa12-3bd7" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3704-49de-23b8-6b1f" type="max"/>
+      </constraints>
       <profiles>
         <profile id="5455-800f-8110-b7cd" name="Kreechur" hidden="false" typeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" typeName="Model/Unit">
           <characteristics>
@@ -4203,6 +4212,7 @@ NAZOMBU Traits.</description>
         <entryLink id="0b06-3db8-2c71-4151" name="Camazotz" hidden="false" collective="false" targetId="da10-c639-450f-b1ec" type="selectionEntry"/>
         <entryLink id="50ea-1cc3-567a-7c47" name="Lokess" hidden="false" collective="false" targetId="7a98-c347-cc67-ccba" type="selectionEntry"/>
         <entryLink id="322d-de8b-f124-0677" name="Seke" hidden="false" collective="false" targetId="65d5-171c-5455-b223" type="selectionEntry"/>
+        <entryLink id="0569-69c9-cdd6-f565" name="Longtree" hidden="false" collective="false" targetId="c9a7-36e0-6749-c0d5" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c218-1484-d239-a118" name="Hex Hands" hidden="false" collective="false">
