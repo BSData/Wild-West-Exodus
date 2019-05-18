@@ -409,7 +409,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fafd-5b9f-1e23-d4e0" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="bfdd-5478-5dc1-dfcb" name="Juiced Pistol" hidden="false" targetId="57aa-4639-96e5-4d20" type="profile"/>
+        <infoLink id="bfdd-5478-5dc1-dfcb" name="Juiced Pistols" hidden="false" targetId="d779-0856-ce7d-60e7" type="profile"/>
         <infoLink id="e458-f10b-f360-b65e" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
         <infoLink id="f462-648b-5edb-b2f2" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule"/>
         <infoLink id="b4cc-0851-a4bf-3be3" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule"/>
@@ -437,7 +437,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="336c-0fe9-ff25-c708" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="e697-5f0b-9917-85f4" name="Juiced Pistols" hidden="false" targetId="d779-0856-ce7d-60e7" type="profile"/>
+        <infoLink id="e697-5f0b-9917-85f4" name="Juiced Pistol" hidden="false" targetId="57aa-4639-96e5-4d20" type="profile"/>
         <infoLink id="f838-ccd2-6eee-efa2" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
         <infoLink id="aa1c-84e9-0104-3e78" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule"/>
         <infoLink id="69dc-d36c-6918-37ef" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule"/>
@@ -461,7 +461,6 @@
     <selectionEntry id="9316-3f71-eec0-ae15" name="Flamethrower (included)" hidden="false" collective="false" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f0-e1d6-9dac-6818" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb44-004a-895a-97ed" type="min"/>
       </constraints>
       <infoLinks>
         <infoLink id="19a4-2b42-4003-5966" name="Flamethrower" hidden="false" targetId="946c-c8f2-8201-850e" type="profile"/>
@@ -2165,6 +2164,22 @@
         <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a13b-d9c4-ec7c-5b14" name="Gatling Fusillade" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7260-5e63-7f6e-7e1f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b618-539d-c6af-32ad" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c8a1-89a3-37f6-0884" name="Gatling Fusillade" hidden="false" targetId="cd4d-5b8e-5a6f-971a" type="profile"/>
+        <infoLink id="5d44-abb9-da35-8645" name="Linked" hidden="false" targetId="4664-50dc-7c1d-8686" type="rule"/>
+        <infoLink id="1ccf-b3d1-2fd5-ed9b" name="Heavy" hidden="false" targetId="dc92-252b-b1ca-4abe" type="rule"/>
+        <infoLink id="d346-cfc0-89d1-4686" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule"/>
+        <infoLink id="997f-1f91-00e4-d63c" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="bf15-949d-58d8-8a65" name="Trailfinder" publicationId="9b21e8c8--pubN75115" page="47" hidden="false">
@@ -2246,7 +2261,7 @@
       <description>The weapon acts as a homing device for friendly models in reserve. Should the weapon hit an enemy unit, then any friendly unit held in Reserve gains+ 1 to their Reserves O,ecks. A unit successfully using this bonus must deplC7f as close as possible to the targeted enemy unit </description>
     </rule>
     <rule id="d400-6ae5-653f-5c4e" name="Blast" publicationId="9b21e8c8--pubN75514" page="43" hidden="false">
-      <description>This type of weapon uses the Blast template when determining hits, centred on the Initial Target. If the model fails their Aim O,eck when using this weapon, it is assumed the shot is a dud and has failed to detonate. Should any model be successfully hit by the weapon then any models touched by the template are automatically hit. When used in a Free Shoot Action, a Blast weapon does not use the template and instead causes dS hits on the target (with a maximum of one hit per modeO. </description>
+      <description>This type of weapon uses the Blast template when determining hits, centred on the Initial Target. If the model fails their Aim Check when using this weapon, it is assumed the shot is a dud and has failed to detonate. Should any model be successfully hit by the weapon then any models touched by the template are automatically hit. When used in a Free Shoot Action, a Blast weapon does not use the template and instead causes d5 hits on the target (with a maximum of one hit per model). </description>
     </rule>
     <rule id="13c3-cc4c-b1fc-0ac7" name="Brutal" publicationId="9b21e8c8--pubN75514" page="43" hidden="false">
       <description>After resolving one or more successful hits on the target unit with this weapon, resolve a further single automatic hit on the same unit. You may only gain a single additional hit from this weapon in each Action. </description>
@@ -2294,7 +2309,7 @@
       <description>Actions made with this weapon score a Critical Success on a natural roll of a 9 or a 10. </description>
     </rule>
     <rule id="dc1e-e0fa-404f-3bd8" name="Indirect" publicationId="9b21e8c8--pubN75514" page="44" hidden="false">
-      <description>A weapon with this quality does not require Line of Sight to its target and ignores Obsrured penalties. Make an Aim Check as nonnal. lfthe Checkfails, the shot is assumed to go wide and not cause any effect on the game. If the Check is passed, place the centre of the Blast template over the intended target and then the template scatters dS+ 1 inches in a random direction. Any models touched by the template are automatically hit. Use the centre of the template for determining direction for calculating Obscured bonuses to Grit Checks. A model may spend an additional + 1 Action Point to ignore this quality when using this weapon in a Shoot Action.</description>
+      <description>A weapon with this quality does not require Line of Sight to its target and ignores Obsrured penalties. Make an Aim Check as normal. lft he Check fails, the shot is assumed to go wide and not cause any effect on the game. If the Check is passed, place the centre of the Blast template over the intended target and then the template scatters d5+ 1 inches in a random direction. Any models touched by the template are automatically hit. Use the centre of the template for determining direction for calculating Obscured bonuses to Grit Checks. A model may spend an additional + 1 Action Point to ignore this quality when using this weapon in a Shoot Action.</description>
     </rule>
     <rule id="4f2a-de0f-a89b-78b0" name="Revolver Fan" publicationId="9b21e8c8--pubN75514" page="44" hidden="false">
       <description>Once per Activation, the unit may spend an Action Point and double its Rate of Attack with this weapon in a Shoot Action. During that Shoot Action the model receives a -2 penalty to their Aim Attribute. When using the Revolver Fan quality, the weapon cannot score a Critical Success. </description>
@@ -2318,7 +2333,7 @@
       <description>Once per Activation the weapon may be used as a Ranged Weapon with an s• range with the Rate of Attack indicated. </description>
     </rule>
     <rule id="0893-023f-221e-0baa" name="Torrent" publicationId="9b21e8c8--pubN75514" page="45" hidden="false">
-      <description>Use the tear shaped Torrent template with this weapon. The narrow end is placed flat touching any point of the edge of the attacker&apos;s base, with the centreline touching the initial target of the shoot action. If the Initial Target is not hit by the attack, it is assumed the weapon has failed to fire. Should the Initial Target be successfully hit then all models touched by the template are automatically hit. This does not include the firing model! Models that have their Line of Sight completely blocked from the original attacker by terrain can still be affected by the torrent but cannot be the Initial Target When used in a Free Shoot Action, a Torrent weapon does not use the template and instead causes dS hits on the target (with a maximum of one hit per model). </description>
+      <description>Use the tear shaped Torrent template with this weapon. The narrow end is placed flat touching any point of the edge of the attacker&apos;s base, with the centreline touching the initial target of the shoot action. If the Initial Target is not hit by the attack, it is assumed the weapon has failed to fire. Should the Initial Target be successfully hit then all models touched by the template are automatically hit. This does not include the firing model! Models that have their Line of Sight completely blocked from the original attacker by terrain can still be affected by the torrent but cannot be the Initial Target When used in a Free Shoot Action, a Torrent weapon does not use the template and instead causes d5 hits on the target (with a maximum of one hit per model). </description>
     </rule>
     <rule id="fad2-1e3c-17dd-ea53" name="Unit" hidden="false"/>
     <rule id="3c72-1c70-0905-ac20" name="Suicide" publicationId="9b21e8c8--pubN75514" page="45" hidden="false">
@@ -2582,6 +2597,9 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
     </rule>
     <rule id="c3c9-5304-ce0f-446a" name="Gene Link" publicationId="9b21e8c8--pubN75514" hidden="false">
       <description>At the start of their Activation, a unit with this rule may duplicate any one Special Rule acquired through the Leeched Ability Special Rule from a friendly unit with the Leeched Ability Special Rule within 12&quot;.</description>
+    </rule>
+    <rule id="fd24-f73f-754a-0e14" name="Ghost Armour" publicationId="9b21e8c8--pubN75514" hidden="false">
+      <description>Once per turn, when hit from a Combat Action, this unit may make an unmodified Mind Check.  If successful the unit may use their Mind Attribute in place of their Grit Attribute for the remainder of the turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3222,6 +3240,15 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
         <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">3</characteristic>
         <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1">Heavy, Brutal, Linked</characteristic>
         <characteristic name="Critical" typeId="f818-5957-e275-643d"/>
+      </characteristics>
+    </profile>
+    <profile id="cd4d-5b8e-5a6f-971a" name="Gatling Fusillade" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
+      <characteristics>
+        <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a">15&quot;</characteristic>
+        <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-2</characteristic>
+        <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">5</characteristic>
+        <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1">Linked, Heavy, Brutal</characteristic>
+        <characteristic name="Critical" typeId="f818-5957-e275-643d">Lethal</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
