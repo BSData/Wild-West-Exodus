@@ -437,7 +437,7 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="336c-0fe9-ff25-c708" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="e697-5f0b-9917-85f4" name="Juiced Pistols" hidden="false" targetId="d779-0856-ce7d-60e7" type="profile"/>
+        <infoLink id="e697-5f0b-9917-85f4" name="Juiced Pistol" hidden="false" targetId="57aa-4639-96e5-4d20" type="profile"/>
         <infoLink id="f838-ccd2-6eee-efa2" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
         <infoLink id="aa1c-84e9-0104-3e78" name="Revolver Fan" hidden="false" targetId="4f2a-de0f-a89b-78b0" type="rule"/>
         <infoLink id="69dc-d36c-6918-37ef" name="Overcharged" hidden="false" targetId="a795-8580-9504-02a4" type="rule"/>
@@ -2164,6 +2164,22 @@
         <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a13b-d9c4-ec7c-5b14" name="Gatling Fusillade" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7260-5e63-7f6e-7e1f" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b618-539d-c6af-32ad" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="c8a1-89a3-37f6-0884" name="Gatling Fusillade" hidden="false" targetId="cd4d-5b8e-5a6f-971a" type="profile"/>
+        <infoLink id="5d44-abb9-da35-8645" name="Linked" hidden="false" targetId="4664-50dc-7c1d-8686" type="rule"/>
+        <infoLink id="1ccf-b3d1-2fd5-ed9b" name="Heavy" hidden="false" targetId="dc92-252b-b1ca-4abe" type="rule"/>
+        <infoLink id="d346-cfc0-89d1-4686" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule"/>
+        <infoLink id="997f-1f91-00e4-d63c" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="bf15-949d-58d8-8a65" name="Trailfinder" publicationId="9b21e8c8--pubN75115" page="47" hidden="false">
@@ -2581,6 +2597,9 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
     </rule>
     <rule id="c3c9-5304-ce0f-446a" name="Gene Link" publicationId="9b21e8c8--pubN75514" hidden="false">
       <description>At the start of their Activation, a unit with this rule may duplicate any one Special Rule acquired through the Leeched Ability Special Rule from a friendly unit with the Leeched Ability Special Rule within 12&quot;.</description>
+    </rule>
+    <rule id="fd24-f73f-754a-0e14" name="Ghost Armour" publicationId="9b21e8c8--pubN75514" hidden="false">
+      <description>Once per turn, when hit from a Combat Action, this unit may make an unmodified Mind Check.  If successful the unit may use their Mind Attribute in place of their Grit Attribute for the remainder of the turn.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -3221,6 +3240,15 @@ or use Fortune and for the duration of this Action, the Compelled unit counts  a
         <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">3</characteristic>
         <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1">Heavy, Brutal, Linked</characteristic>
         <characteristic name="Critical" typeId="f818-5957-e275-643d"/>
+      </characteristics>
+    </profile>
+    <profile id="cd4d-5b8e-5a6f-971a" name="Gatling Fusillade" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
+      <characteristics>
+        <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a">15&quot;</characteristic>
+        <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-2</characteristic>
+        <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">5</characteristic>
+        <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1">Linked, Heavy, Brutal</characteristic>
+        <characteristic name="Critical" typeId="f818-5957-e275-643d">Lethal</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -5126,6 +5126,7 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
         <infoLink id="c852-9b9f-cd20-6898" name="Forward Echelon" hidden="false" targetId="d010-3e9c-e6de-eec9" type="rule"/>
         <infoLink id="0af9-e9cb-e34b-c37d" name="Trapper" hidden="false" targetId="38da-80d1-ed71-4c72" type="rule"/>
         <infoLink id="cc4c-7c18-4e33-7aee" name="Spirit Aim" hidden="false" targetId="144b-880e-fcf1-2b63" type="rule"/>
+        <infoLink id="8418-2851-d37c-baec" name="Unique" hidden="false" targetId="0c90-44c9-d012-1bea" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1c4f-951f-bdcc-5fbe" name="Faces" hidden="false" targetId="aa6b-3706-76b6-d0c0" primary="true"/>
@@ -6528,26 +6529,9 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
         <categoryLink id="dc93-18e0-7692-51c2" name="Outlaws" hidden="false" targetId="3ba7-5fcc-0fe1-5503" primary="false"/>
         <categoryLink id="20c8-add8-aba0-2024" name="Warrior Nation" hidden="false" targetId="b91f-8e84-239b-ebf8" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="3762-af7a-c20e-5dbd" name="Filleting Blade" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="bbc9-272e-3675-1e13" name="Filleting Blade" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
-              <characteristics>
-                <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a">-</characteristic>
-                <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-1</characteristic>
-                <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">1</characteristic>
-                <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1"/>
-                <characteristic name="Critical" typeId="f818-5957-e275-643d"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="fffa-d933-7a81-d868" name="Drug Pistol" hidden="false" collective="false" targetId="348d-8880-3f63-bcda" type="selectionEntry"/>
+        <entryLink id="7945-1133-c885-945f" name="Filleting Blade" hidden="false" collective="false" targetId="590b-50a9-c45d-a516" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="115.0"/>
@@ -8028,6 +8012,7 @@ Fortune. Felipe Espinosa is the only unit with the BOSS Trait permitted in this 
           <infoLinks>
             <infoLink id="a87b-fb24-4ff2-1bd2" name="Rail Pistols" hidden="false" targetId="cafb-d72a-dafd-2b1e" type="profile"/>
             <infoLink id="5d5b-df59-a94c-5546" name="Shred" hidden="false" targetId="368d-afd0-7f3f-5d2e" type="rule"/>
+            <infoLink id="9c7f-e062-1c15-f399" name="Close Work" hidden="false" targetId="f2df-e00f-8bad-9042" type="rule"/>
           </infoLinks>
           <costs>
             <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>

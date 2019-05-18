@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dbd9-5070-b563-edef" name="Hex" revision="2" battleScribeVersion="2.02" library="false" gameSystemId="9b21e8c8-31b6-82f0-9805-ad62649f1f3d" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="dbd9-5070-b563-edef" name="Hex" revision="3" battleScribeVersion="2.02" library="false" gameSystemId="9b21e8c8-31b6-82f0-9805-ad62649f1f3d" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="b46b-86e0-3b3d-354e" name="Court of the Nazombu Theme Posse" hidden="false"/>
     <categoryEntry id="e42c-0ad0-9b48-4961" name="Tainted Biology Posse" hidden="false"/>
@@ -924,6 +924,7 @@ NAZOMBU Traits.</description>
     <entryLink id="e266-c10a-da1e-917b" name="Bandit Dustcutter" hidden="false" collective="false" targetId="2fc6-3b49-31a5-36a3" type="selectionEntry"/>
     <entryLink id="d30b-592f-612f-0dfb" name="Treewalkers" hidden="false" collective="false" targetId="7bd1-5e68-78b8-f416" type="selectionEntry"/>
     <entryLink id="2dcf-482b-27b4-9971" name="Hex Beast" hidden="false" collective="false" targetId="a572-f972-e63c-c779" type="selectionEntry"/>
+    <entryLink id="c9b3-ccbd-3b71-ec07" name="Megan Wild (Underboss" hidden="false" collective="false" targetId="2516-4600-9635-9526" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="0fd9-23c5-e813-b076" name="Viktor Beitel" publicationId="91f2-47d5-acef-1c1e" hidden="false" collective="false" type="unit">
@@ -3798,6 +3799,12 @@ NAZOMBU Traits.</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a52-84e9-d161-fa48" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf2b-7f03-6d1d-f72d" type="max"/>
           </constraints>
+          <infoLinks>
+            <infoLink id="c79e-e4f4-f3ff-2aee" name="Frenzy" hidden="false" targetId="323f-8846-7a2e-5246" type="rule"/>
+            <infoLink id="2a5b-c06e-4217-ff0d" name="Split Personality" hidden="false" targetId="fdff-25b1-5ddb-784e" type="rule"/>
+            <infoLink id="ede4-15cc-7160-a168" name="Volatile" hidden="false" targetId="1c32-6d5b-d678-6fde" type="rule"/>
+            <infoLink id="f9cf-a167-8122-3295" name="Ghost Armour" hidden="false" targetId="fd24-f73f-754a-0e14" type="rule"/>
+          </infoLinks>
           <entryLinks>
             <entryLink id="e570-dd94-5dde-3ce2" name="Iridescent Breath" hidden="false" collective="false" targetId="2d3a-db6a-5bd5-8860" type="selectionEntry"/>
             <entryLink id="c95c-156b-9444-06d1" name="Spirit Claws" hidden="false" collective="false" targetId="31c0-b00e-176a-4416" type="selectionEntry"/>
@@ -3987,6 +3994,52 @@ NAZOMBU Traits.</description>
       </entryLinks>
       <costs>
         <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2516-4600-9635-9526" name="Megan Wild (Underboss" publicationId="9b21e8c8--pubN75514" hidden="false" collective="false" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a36f-cb29-e9c0-f6aa" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b740-a582-a84a-e864" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7f8d-f2a8-290b-16b0" name="Megan Wild" hidden="false" typeId="ca94a085-38f7-7c33-2d74-8ba3078641e0" typeName="Model/Unit">
+          <characteristics>
+            <characteristic name="Quick" typeId="4b8e-4447-83c6-521c">5</characteristic>
+            <characteristic name="Mind" typeId="fd77-4dfe-250e-b1e5">6</characteristic>
+            <characteristic name="Limit" typeId="5422-c4be-2581-afd7">3</characteristic>
+            <characteristic name="Aim" typeId="7c2d-731e-06f0-e290">5</characteristic>
+            <characteristic name="Fight" typeId="0317-4cf6-450a-f201">5</characteristic>
+            <characteristic name="Grit" typeId="2685-f334-855c-1d6b">5</characteristic>
+            <characteristic name="Fortune" typeId="f2bc-61e4-aa57-5ae4">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a504-56d6-e413-49fa" name="Dark Council" hidden="false" targetId="9dcd-ee73-2d19-81ad" type="rule"/>
+        <infoLink id="8129-06ae-5402-9de9" name="Savant" hidden="false" targetId="b4b5-b2c5-3b89-48df" type="rule"/>
+        <infoLink id="4617-7c03-4690-b12a" name="Head Hunter" hidden="false" targetId="b05d-330c-a5f3-4f7b" type="rule"/>
+        <infoLink id="14dc-13b9-28dc-2963" name="Mutual Destruction" hidden="false" targetId="b0a1-e4ed-7b3a-b7ed" type="rule"/>
+        <infoLink id="14dd-4a5e-5f2b-639c" name="Underboss" hidden="false" targetId="7136-825f-f623-137a" type="rule"/>
+        <infoLink id="76f3-32de-a994-edee" name="Mettle" hidden="false" targetId="5aad-1e66-ab3d-a35d" type="rule"/>
+        <infoLink id="ffc7-7290-c077-c9d4" name="The Quick and the Dead" hidden="false" targetId="7a8a-ee6b-a9cb-475e" type="rule"/>
+        <infoLink id="781a-684e-aea6-f0bb" name="Target Priority" hidden="false" targetId="327f-37c6-271d-8dc5" type="rule"/>
+        <infoLink id="c3eb-cd81-6c2b-05b8" name="Unique" hidden="false" targetId="0c90-44c9-d012-1bea" type="rule"/>
+        <infoLink id="552a-bd55-786e-4d04" name="Largesse" hidden="false" targetId="1466-09ad-7c63-fde5" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="846f-c047-fdbb-0887" name="Female" hidden="false" targetId="3620-2a28-c3fe-9a53" primary="false"/>
+        <categoryLink id="af57-46c9-1f36-f8f0" name="Hex" hidden="false" targetId="8f78-7262-70d2-d8c2" primary="false"/>
+        <categoryLink id="587e-8594-3d5a-04e4" name="Human" hidden="false" targetId="2959-545d-5227-6114" primary="false"/>
+        <categoryLink id="b7c1-ee89-e0d2-cbd8" name="Tainted" hidden="false" targetId="4338-f0b6-00da-9e53" primary="false"/>
+        <categoryLink id="0296-9243-ef69-3e06" name="New CategoryLink" hidden="false" targetId="4e5f-f572-3d17-458b" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dfe3-cb5e-c36f-8457" name="Fellblade" hidden="false" collective="false" targetId="8bcd-4b2e-d1be-78fa" type="selectionEntry"/>
+        <entryLink id="1199-bc1d-4eab-66f9" name="Hex Bolt" hidden="false" collective="false" targetId="84fe-4bcb-5eb2-e192" type="selectionEntry"/>
+        <entryLink id="b940-0f9a-f5c0-3ceb" name="Shadow Portal" hidden="false" collective="false" targetId="a89c-5349-ab17-e755" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="215.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
