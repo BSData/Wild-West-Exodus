@@ -231,6 +231,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="aa34-3c65-be75-d44b" name="Plainswalker Crossbow" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b84c-84f8-6413-6224" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f1b-19ae-2795-2cb1" type="min"/>
+      </constraints>
       <profiles>
         <profile id="59dc-d3a2-6f89-4d51" name="Plainswalker Crossbow" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
           <characteristics>
@@ -744,6 +748,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0476-b5e2-cf23-d798" name="Tomahawks" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a89-39e6-9251-3790" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a7c-ab06-37b6-0684" type="min"/>
+      </constraints>
       <profiles>
         <profile id="1c74-b10d-5d9e-6793" name="Tomahawks" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
           <characteristics>
@@ -961,6 +969,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0945-8c21-d404-8002" name="Spirit Axes" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="234b-069e-063a-2ef7" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4164-b6f9-c2c8-4673" type="min"/>
+      </constraints>
       <profiles>
         <profile id="51d5-ffba-3616-45f7" name="Spirit Axes" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
           <characteristics>
@@ -1110,6 +1122,10 @@
           </categoryLinks>
           <selectionEntries>
             <selectionEntry id="ca79-e59b-579a-8df9" name="Teeth &amp; Claws" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="176a-af21-1a47-b336" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ef9-f844-d0f7-3d28" type="max"/>
+              </constraints>
               <profiles>
                 <profile id="99b3-c85c-d6fb-c657" name="Teeth &amp; Claws" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
                   <characteristics>
@@ -1519,6 +1535,10 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5931-4a55-806d-e4c9" name="Moon-Hunter&apos;s Bolo" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35a1-9008-7300-cdd8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7117-0670-1077-2860" type="min"/>
+          </constraints>
           <profiles>
             <profile id="d087-681b-7970-c39c" name="Moon-Hunter&apos;s Bolo" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>
@@ -1917,6 +1937,10 @@
               </costs>
             </selectionEntry>
             <selectionEntry id="893c-6a3c-0e67-7b6d" name="Spirit Blade" hidden="false" collective="false" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ca-e754-00a5-13fa" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f892-1360-0129-d311" type="min"/>
+              </constraints>
               <profiles>
                 <profile id="edca-e5ea-1d80-73a7" name="Spirit Blade" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon">
                   <characteristics>
@@ -2076,7 +2100,7 @@
             <characteristic name="Aim" typeId="7c2d-731e-06f0-e290">5</characteristic>
             <characteristic name="Fight" typeId="0317-4cf6-450a-f201">7</characteristic>
             <characteristic name="Grit" typeId="2685-f334-855c-1d6b">7</characteristic>
-            <characteristic name="Fortune" typeId="f2bc-61e4-aa57-5ae4"></characteristic>
+            <characteristic name="Fortune" typeId="f2bc-61e4-aa57-5ae4"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2115,6 +2139,9 @@
             <infoLink id="5aba-2b02-695e-f457" name="Brutal" hidden="false" targetId="13c3-cc4c-b1fc-0ac7" type="rule"/>
             <infoLink id="649f-2bc3-019f-13ad" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -2134,7 +2161,7 @@
             <characteristic name="Aim" typeId="7c2d-731e-06f0-e290">5</characteristic>
             <characteristic name="Fight" typeId="0317-4cf6-450a-f201">6</characteristic>
             <characteristic name="Grit" typeId="2685-f334-855c-1d6b">7</characteristic>
-            <characteristic name="Fortune" typeId="f2bc-61e4-aa57-5ae4"></characteristic>
+            <characteristic name="Fortune" typeId="f2bc-61e4-aa57-5ae4"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2153,13 +2180,17 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="7131-2c62-83c7-bc24" name="Razor Claw (Fire Eagle)" hidden="false" collective="false" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75c7-b459-ba7f-b6d8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a02d-406d-83b4-7089" type="max"/>
+          </constraints>
           <profiles>
             <profile id="a746-e8d4-ba5c-b5b2" name="Razor Claw (Fire Eagle)" hidden="false" typeId="1293-38cf-ef83-e62e" typeName="Weapon/Attack">
               <characteristics>
                 <characteristic name="Range" typeId="cd5a-721a-cd4b-ca7a"/>
                 <characteristic name="Pierce" typeId="e4ce-b6bb-9469-1aa2">-2</characteristic>
                 <characteristic name="Rate of Attack" typeId="3c88-853f-7944-514e">4</characteristic>
-                <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1"></characteristic>
+                <characteristic name="Qualities" typeId="461f-8df2-ad59-0fb1"/>
                 <characteristic name="Critical" typeId="f818-5957-e275-643d">Lethal</characteristic>
               </characteristics>
             </profile>
@@ -2167,6 +2198,9 @@
           <infoLinks>
             <infoLink id="5617-1c2c-39f5-8baa" name="Lethal" hidden="false" targetId="6428-7fd8-0d08-1221" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name=" Points" typeId="c31b-12c2-3f65-9d8f" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
