@@ -1,7 +1,20 @@
+# Ignore everything
+*
 
-backups/WWX 190324204112302.gst
-backups/WWXEnlightened 190324204117102.cat
-backups/WWXLawmen 190324204117389.cat
-backups/WWXOutlaws 190324204117605.cat
-backups/WWXUnion 190324204117811.cat
-backups/WWXWarriorNation 190324204117993.cat
+# Don't ignore .git* files
+!.gitignore
+!.gitattributes
+
+# Don't ignore catalogues and game system
+!*.cat
+!*.gst
+
+# Don't ignore docs
+!*.md
+
+# Don't ignore github files
+!/.github
+!/.github/**
+
+# Don't ignore .yml for CI build definitions
+!*.yml
